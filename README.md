@@ -4,7 +4,7 @@
 
 **Piment CSS** is a css micro-framework made by Webmonster Antilles. 
 
-Install the gulp package in your devDependencies
+## Install the gulp package in your devDependencies
 ```
 npm install --save-dev gulp gulp-sass sass
 ```
