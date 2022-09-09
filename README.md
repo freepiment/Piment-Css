@@ -31,5 +31,5 @@ gulp
 
 ## Piment CSS - Micro Framework CSS
 <img src="https://raw.githubusercontent.com/WebmonsterA/Piment-Css/main/public/assets/img/logo-pimentcss.svg" alt="" width="200">
-Thanks to : WestInDev, Ronny, Christelle, Eric, R3tr0_, SignedA, Kenjisupremacy, Chriss, SoniaV, webplusm, Jeed0, FabienF, FVR71F, Nautilias and all Webmonster Community
+Thanks to : WestInDev, Ronny, Christelle, Eric, R3tr0_, SignedA, Kenjisupremacy, Chriss, SoniaV, webplusm, Jeed0, Kisaman_Steeven, FabienF, FVR71F, Nautilias and all Webmonster Community
 
