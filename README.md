@@ -2,7 +2,12 @@
 
 # Piment Css
 
-**Piment CSS** is a css micro-framework made by Webmonster Antilles. 
+**Piment CSS** is a css micro-framework made by Webmonster Antilles.
+
+## Install the npm package
+```
+npm init
+```
 
 ## Install the gulp package in your devDependencies
 ```
