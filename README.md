@@ -6,7 +6,7 @@
 
 ## Install the npm package
 ```
-npm init
+npm install
 ```
 
 ## Install the gulp package in your devDependencies
