@@ -1,6 +1,6 @@
 {
-  "name": "cssmonster",
-  "version": "1.0.0",
+  "name": "pimentcss",
+  "version": "0.3.27",
   "description": "CSS Framework",
   "main": "index.js",
   "scripts": {
