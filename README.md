@@ -8,7 +8,8 @@
 ```
 npm install
 ```
-# Install the gulp command line utility
+
+## Install the gulp command line utility globally (if needed)
 ```
 npm install --global gulp-cli
 ```
@@ -17,6 +18,7 @@ npm install --global gulp-cli
 ```
 npm install --save-dev gulp gulp-sass sass
 ```
+
 ## Start watch and compile
 ```
 gulp
