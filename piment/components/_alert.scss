@@ -1,0 +1,86 @@
+.message {
+  position: relative;
+  background-color:  map-get($colors, "blue");
+  width: calc(100% - 3em);
+  max-width: 24em;
+  padding: 1.5em 1em 1.5em 2em;
+  border-left-width: 6px;
+  border-left-style: solid;
+  border-radius: 3px;
+  line-height: 1.5;
+
+  & + & {
+    margin-top: 2em;
+  }
+
+  &:before {
+    color: map-get($colors, "white");
+    width:  1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 1em;
+    left: -3px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  &__close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: .4rem .75rem;
+    color:  map-get($colors, "white");
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+
+    span {
+      font-size: 1rem;
+    }
+  }
+
+  p {
+    color: map-get($colors, white);
+    margin: 0 0 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.message--error {
+  border-left-color: firebrick;
+
+  &:before {
+    background-color: firebrick;
+    content: "\f1f1";
+    font-family: 'Material-Design-Iconic-Font', sans-serif;
+  }
+}
+
+.message--warning {
+  border-left-color: darkorange;
+
+  &:before {
+    background-color: darkorange;
+    content: "\f1f4";
+    font-family: 'Material-Design-Iconic-Font', sans-serif;
+  }
+}
+
+.message--success {
+  border-left-color: darkolivegreen;
+
+  &:before {
+    background-color: darkolivegreen;
+    content: "\f26b";
+    font-family: 'Material-Design-Iconic-Font', sans-serif;
+  }
+}
+
+.closed {
+  display: none;
+}

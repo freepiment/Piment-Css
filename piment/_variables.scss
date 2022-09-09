@@ -1,0 +1,37 @@
+@use 'sass:math';
+
+// THEME COLORS
+$info: #fecf6d;
+$error: #b34045;
+$success: #2d884d;
+
+// color palette
+$colors: (
+        "error": $error,
+        "info": $info,
+        "success": $success,
+        "red": #E9473E,
+        "blue": #1211F5,
+        "green": #1DF56F,
+        "orange": #fc8315,
+        "dark": #2d2d2d,
+        "gray": mix(white, #2d2d2d, 1 * 30),
+        "white": #fdfdfd
+);
+
+// SPACING
+$base-padding: 1rem;
+$base-margin: 1.2rem;
+
+// BORDERS
+$base-border-thickness : 1px;
+$base-border-radius: 1.625rem;
+
+// BOX SHADOW
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+
+// FONT SIZES
+$base-font-size: 1.4rem;
+$font-size-xs: math.div($base-font-size,1.618);
+$font-size-md: $base-font-size * 1.618;
+$font-size-lg: ($base-font-size * 1.618) * 1.618;

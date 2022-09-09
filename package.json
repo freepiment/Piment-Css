@@ -1,0 +1,20 @@
+{
+  "name": "cssmonster",
+  "version": "1.0.0",
+  "description": "CSS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "framework"
+  ],
+  "author": "Webmonster",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.8"
+  }
+}

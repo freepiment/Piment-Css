@@ -1,0 +1,31 @@
+@each $key, $val in $colors {
+
+  .text-#{$key} {
+    color: $val;
+  }
+
+  .text-hover-#{$key} {
+    &:hover {
+      color: $val;
+    }
+  }
+
+  .bg-#{$key} {
+    background-color: $val;
+  }
+
+  @if($key == 'black' or $key == 'blue'){
+
+    // LIGHT
+    @for $i from 1 through 4 {
+      .text-#{$key}-light-#{$i} {
+        color: mix(white, $val, $i * 20);
+      }
+      .bg-#{$key}-light-#{$i} {
+        background-color: mix(white, $val, $i * 20);
+      }
+    }
+
+  }
+
+}

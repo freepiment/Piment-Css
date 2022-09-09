@@ -1,0 +1,26 @@
+@use 'sass:math';
+
+.card {
+  display: block;
+  padding: $base-padding;
+  border: $base-border-thickness solid #ddd;
+  box-shadow: $base-box-shadow;
+  border-radius: math.div($base-border-radius, 4);
+
+  .card-title {
+    color: map-get($colors, "blue");
+  }
+
+  .card-body {
+
+    p {
+      margin-bottom: math.div($base-margin, 1.618);
+    }
+
+    a {
+      text-decoration: underline;
+    }
+
+  }
+}
+

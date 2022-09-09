@@ -1,0 +1,338 @@
+@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
+  transition: $property $duration $ease;
+}
+
+@mixin btn($bg-color, $text-color, $border) {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: #{$border};
+  border-radius: $base-border-radius;
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 0.75rem 1.5rem;
+  margin: 1.85rem 0;
+  -webkit-transition: background-color 700ms linear;
+  transition: background-color 700ms linear;
+  vertical-align: middle;
+}
+
+@each $key, $val in $colors {
+  .btn-#{$key} {
+    @include btn($val, map-get($colors, "white"), 0);
+    &:hover {
+      background-color: lighten($val, 15);
+    }
+  }
+  .btn-outlined-#{$key} {
+    @include btn( map-get($colors, "white"), $val, $base-border-thickness solid $val);
+    &:hover {
+      @include btn( $val, map-get($colors, "white"), $base-border-thickness solid $val);
+    }
+  }
+
+  .option-#{$key} {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    &.option-#{$key} {
+      width: 12rem;
+      height: auto;
+      .circle {
+        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+        position: relative;
+        display: block;
+        margin: 0;
+        width: 3rem;
+        height: 3rem;
+        background: $val;
+        border-radius: 1.625rem;
+        .icon {
+          @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          background: map-get($colors, "white");
+          &.arrow {
+            @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+            left: 0.625rem;
+            width: 1.125rem;
+            height: 0.125rem;
+            background: none;
+            &::before {
+              position: absolute;
+              content: '';
+              top: -0.25rem;
+              right: 0.0625rem;
+              width: 0.625rem;
+              height: 0.625rem;
+              border-top: 0.125rem solid #fff;
+              border-right: 0.125rem solid #fff;
+              transform: rotate(45deg);
+            }
+          }
+        }
+      }
+      .button-text {
+        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 0.75rem 0;
+        margin: 0 0 0 1.85rem;
+        color: $val;
+        font-weight: 700;
+        line-height: 1.6;
+        text-align: center;
+      }
+    }
+    &:hover {
+      .circle {
+        width: 100%;
+        .icon {
+          &.arrow {
+            background: map-get($colors, "white");
+            transform: translate(1rem, 0);
+          }
+        }
+      }
+      .button-text {
+        color: map-get($colors, "white");
+      }
+    }
+  }
+
+  .action-#{$key} {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin: 1.85rem 0;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: $base-border-radius;
+    background-color: $val;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 150ms ease-out;
+    &:focus, &:hover {
+      background-color: $val;
+      box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem $val;
+    }
+    &:active {
+      background-color: $val;
+      box-shadow: 0 0 0 0.1875rem $val, 0 0 0 0.375rem $val;
+      transition-duration: 75ms;
+    }
+    span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    span:after {
+      content: "\f2fb";
+      font-family: Material-Design-Iconic-Font, sans-serif;
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: 20px;
+      transition: 0.5s;
+    }
+    &:hover span:hover {
+      padding-right: 25px;
+    }
+    &:hover span:after {
+      opacity: 1;
+      right: -10px;
+    }
+  }
+}
+
+.back {
+  /**position: fixed;
+  top: 40px;
+  left: 40px;**/
+  width: 100px;
+  ul {
+    display: block;
+    margin-bottom: 0;
+    list-style: none;
+    li {
+      white-space: nowrap;
+      a {
+        text-decoration: none;
+      }
+    }
+    &.nav-history {
+      padding-left: 36px;
+      padding-top: 25px;
+      pointer-events: none;
+      li {
+        margin-bottom: 5px;
+        &::after {
+          content: '';
+          position: absolute;
+          left: 12px;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          background: #e8eaed;
+          transform: scale(0.9);
+          transition: all 0.2s ease;
+        }
+        &:not(:last-child)::before {
+          content: '';
+          position: absolute;
+          left: 17px;
+          margin-top: 10px;
+          width: 2px;
+          height: 28px;
+          background: #e8eaed;
+          transition: all 0.2s ease;
+        }
+        &.active {
+          pointer-events: none;
+          &::after {
+            background: #e8eaed;
+          }
+          a {
+            color: map-get($colors, "dark");
+          }
+        }
+        a {
+          color: map-get($colors, "blue");
+          display: inline-block;
+          opacity: 0;
+          transform: translateY(-10px);
+          transition: all 0.2s ease;
+          &:hover {
+            color: map-get($colors, "blue");
+          }
+        }
+      }
+    }
+    &.nav-links {
+      position: absolute;
+      transform: translateY(-10px);
+      margin-top: 20px;
+      padding-left: 12px;
+      opacity: 0;
+      transition: all 0.2s ease;
+      pointer-events: none;
+      li {
+        &:not(:last-child) {
+          margin-bottom: 5px;
+        }
+        a {
+          font-size: 14px;
+          font-weight: 600;
+          color:  mix(black, map-get($colors, "white"), 1 * 30);
+          transition: color 0.2s ease;
+          &:focus, &:hover {
+            color: map-get($colors, "blue");
+          }
+        }
+      }
+    }
+  }
+  &:hover {
+    width: auto;
+    .menu-back {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .btn-back {
+      div {
+        background: map-get($colors, "blue-light");
+      }
+      span {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    ul {
+      &.nav-history {
+        transform: translateY(0);
+        pointer-events: auto;
+        li {
+          margin-bottom: 8px;
+          &::after {
+            background: map-get($colors, "blue");
+            transform: translateY(6px);
+          }
+          &.active {
+            &::after {
+              background: map-get($colors, "dark");
+            }
+          }
+          a {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      }
+      &.nav-links {
+        position: relative;
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+    }
+  }
+}
+.back:hover .btn-back div svg path,
+.back:hover .btn-back div svg polyline {
+  stroke: map-get($colors, "white");
+}
+.btn-back {
+  display: inline-block;
+  div {
+    position: relative;
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: mix(white, map-get($colors, "dark"), 1 * 80);
+    float: left;
+    svg {
+      fill: none;
+      stroke: white;
+      transform: translate(10px, 11px);
+    }
+  }
+  span {
+    display: inline-block;
+    color: map-get($colors, "blue");
+    margin-left: 10px;
+    line-height: 34px;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.2s ease;
+  }
+  &:hover {
+    span {
+      color: map-get($colors, "blue-light");
+    }
+  }
+}
+.btn-back div svg path,
+.btn-back div svg polyline {
+  stroke: mix(white, map-get($colors, "dark"), 1 * 20);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}

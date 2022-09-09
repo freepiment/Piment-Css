@@ -1,0 +1,97 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block
+}
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+ul, ol {
+  padding: 0;
+  margin: 15px 0 10px 25px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+img, video, svg {
+  max-width: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary, div {
+  display: block;
+}
+p {
+  margin-top: 0;
+  margin-bottom: $base-margin;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+a:active, a:hover {
+  outline: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 1920px) {
+  body {
+    min-height: auto;
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    text-align: left;
+  }
+}
+body {
+  display: block;
+  overflow: visible;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  min-height: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: justify;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-animation: bugfix infinite 1s;
+}
+@-webkit-keyframes bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+  line-height: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 2rem;
+}
+p {
+  font-weight: normal;
+  line-height: 1.5em;
+  margin-bottom: 2rem;
+}
+sup {
+  vertical-align: super;
+  font-size: xx-large;
+}
