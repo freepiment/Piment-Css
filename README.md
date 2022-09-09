@@ -8,6 +8,8 @@
 ```
 npm install --save-dev gulp gulp-sass sass
 ```
-
-
-![img](https://raw.githubusercontent.com/WebmonsterA/Piment-Css/main/public/assets/img/logo-pimentcss.svg)
+## Start watch and compile
+```
+gulp
+```
+<img src="https://raw.githubusercontent.com/WebmonsterA/Piment-Css/main/public/assets/img/logo-pimentcss.svg" alt="" width="200">
