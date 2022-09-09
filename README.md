@@ -21,8 +21,8 @@ npm install --save-dev gulp gulp-sass sass
 ```
 gulp
 ```
-<img src="https://raw.githubusercontent.com/WebmonsterA/Piment-Css/main/public/assets/img/logo-pimentcss.svg" alt="" width="200">
-# Piment CSS
 
+## Piment CSS - Micro Framework CSS
+<img src="https://raw.githubusercontent.com/WebmonsterA/Piment-Css/main/public/assets/img/logo-pimentcss.svg" alt="" width="200">
 Thanks to : WestInDev, Ronny, Christelle, Eric, R3tr0_, SignedA, Kenjisupremacy, Chriss, SoniaV, Jeed0, FabienF, FVR71F, Nautilias and all Webmonster Community
 
