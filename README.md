@@ -4,6 +4,11 @@
 
 **Piment CSS** is a css micro-framework made by Webmonster Antilles.
 
+## Basic install
+```
+npm i pimentcss
+```
+
 ## Install the npm package
 ```
 npm install
