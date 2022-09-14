@@ -35,7 +35,10 @@ h5 {font-size: 1.5rem;}
 
 p {
   font-size: clamp(1.2rem, 0rem + 1vw, 1.8rem);
-  margin-bottom: 1rem;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin-top: 0;
+  margin-bottom: $base-margin;
 }
 
 ul > li, ol > li {
