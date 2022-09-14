@@ -39,10 +39,6 @@ img, video, svg {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary, div {
   display: block;
 }
-p {
-  margin-top: 0;
-  margin-bottom: $base-margin;
-}
 a {
   text-decoration: none;
   background-color: transparent;
@@ -88,11 +84,6 @@ h1, h2, h3, h4, h5 {
   font-weight: bold;
   line-height: 1.5em;
   margin-top: 1em;
-  margin-bottom: 2rem;
-}
-p {
-  font-weight: normal;
-  line-height: 1.5em;
   margin-bottom: 2rem;
 }
 sup {
