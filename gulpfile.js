@@ -34,3 +34,7 @@ gulp.task('build', function () {
 gulp.task('watch', function () {
     gulp.watch(['piment/**/*.scss'], gulp.series('dev'))
 })
+
+gulp.task('start', gulp.series(['build', 'watch']))
+
+gulp.task('default', gulp.series(['start']))
