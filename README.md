@@ -21,12 +21,22 @@ npm install --global gulp-cli
 
 ## Install the gulp package in your devDependencies
 ```
-npm install --save-dev gulp gulp-sass sass
+npm install --save-dev gulp gulp-sass sass gulp-autoprefixer gulp-clean-css gulp-rename
 ```
 
 ## Start watch and compile
 ```
 gulp
+```
+
+## Start build
+```
+gulp build
+```
+
+## Start dev (no minify)
+```
+gulp dev
 ```
 
 ## Piment CSS - Micro Framework CSS
