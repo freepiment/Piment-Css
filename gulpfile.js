@@ -1,14 +1,20 @@
-const {src, dest, watch, series} = require('gulp')
-const sass = require('gulp-sass')(require('sass'))
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const prefix = require('gulp-autoprefixer');
+const minify = require('gulp-clean-css');
+const rename = require('gulp-rename');
 
-function buildStyles() {
-    return src('piment/**/*.scss')
-        .pipe(sass(), 'compressed')
-        .pipe(dest('public/assets/css'))
-}
-
-function watchTask() {
-    watch(['piment/**/*.scss'], buildStyles)
-}
-
-exports.default = series(buildStyles, watchTask)
+gulp.task('compilescss', function() {
+    gulp.src('./piment/**/*.scss')
+        .pipe(sass())
+        .pipe(prefix())
+        .pipe(minify())
+        .pipe(rename(function (path) {
+            return {
+            dirname: path.dirname + "",
+            basename: path.basename + ".min",
+            extname: ".css"
+            };
+        }))
+        .pipe(gulp.dest('./public/assets/css'))
+});
