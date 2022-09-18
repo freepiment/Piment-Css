@@ -37,7 +37,6 @@ textarea:-ms-input-placeholder {color: #cccccc;}
   flex-wrap: wrap;
   justify-content: space-between;
 
-
   .form-title {
     display: block;
     width: 100%;
@@ -47,50 +46,12 @@ textarea:-ms-input-placeholder {color: #cccccc;}
     text-align: left;
     margin-bottom: $base-padding;
   }
-
   .wrap {
     width: 100%;
     position: relative;
     border-bottom: 2px solid #dbdbdb;
     margin-bottom: 45px;
   }
-
-  .form-input-styled {
-    position: relative;
-    display: block;
-    padding: .5rem;
-
-    .label {
-      font-size: 18px;
-      color: map-get($colors, "dark");
-      line-height: 1.2;
-      padding-left: .5rem;
-
-    }
-
-    .input {
-      display: block;
-      width: 100%;
-      height: 50px;
-      font-size: 22px;
-      color: map-get($colors, "dark");
-      background-color: map-get($colors, "graylight");
-      line-height: 1.2;
-      padding: 0 .5rem;
-      margin: .5rem 0;
-      border: 0;
-      border-bottom: 1px solid  map-get($colors, "blue");
-    }
-
-    .right .input {
-      padding-right: 3rem;
-    }
-
-    .left .input {
-      padding-left: 3rem;
-    }
-  }
-
   .form-input {
     position: relative;
     display: block;
@@ -126,7 +87,41 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       padding-left: 3rem;
     }
   }
+  .form-input-styled {
+    position: relative;
+    display: block;
+    padding: .5rem;
 
+    .label {
+      font-size: 18px;
+      color: map-get($colors, "dark");
+      line-height: 1.2;
+      padding-left: .5rem;
+
+    }
+
+    .input {
+      display: block;
+      width: 100%;
+      height: 50px;
+      font-size: 22px;
+      color: map-get($colors, "dark");
+      background-color: map-get($colors, "graylight");
+      line-height: 1.2;
+      padding: 0 .5rem;
+      margin: .5rem 0;
+      border: 0;
+      border-bottom: 1px solid  map-get($colors, "blue");
+    }
+
+    .right .input {
+      padding-right: 3rem;
+    }
+
+    .left .input {
+      padding-left: 3rem;
+    }
+  }
   .form-input-add {
     position: relative;
 
@@ -145,7 +140,6 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       padding: 0 8px 0 0;
     }
   }
-
   .form-radio {
     input[type='radio']:after {
       width: 15px;
@@ -190,7 +184,6 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       left: -1px;
     }
   }
-
   .form-checkbox {
     display: block;
     cursor: pointer;
@@ -214,7 +207,7 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       -o-appearance: none;
       appearance: none;
       border: 1px solid map-get($colors, "blue");
-      border-radius: 15px;
+      border-radius: .4rem;
       outline: none;
       transition-duration: 0.3s;
       background-color: map-get($colors, "graylight");
