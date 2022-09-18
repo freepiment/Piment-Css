@@ -3075,7 +3075,7 @@ textarea:-ms-input-placeholder {
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  top: -2px;
+  top: 0;
   left: -1px;
   position: relative;
   background-color: whitesmoke;
@@ -3088,7 +3088,7 @@ textarea:-ms-input-placeholder {
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  top: 6px;
+  top: 0;
   left: -1px;
   position: relative;
   background-color: #1211F5;
@@ -3104,8 +3104,31 @@ textarea:-ms-input-placeholder {
        column-gap: 1rem;
 }
 .form .form-radio-inline input[type=radio]:after {
-  top: -2px;
+  top: 6px;
   left: -1px;
+}
+.form .form-radio-inline input[type=radio]:checked:after {
+  top: 6px;
+  left: -1px;
+}
+.form .form-checkbox input[type=checkbox] {
+  border-radius: 15px;
+  height: 15px;
+  width: 15px;
+  background: white;
+  border: 1px solid #1211F5;
+}
+.form .form-checkbox input[type=checkbox]:checked {
+  background: yellow;
+  margin: 0px;
+  position: relative;
+}
+.form .form-checkbox input[type=checkbox]:checked:before {
+  content: "X";
+  display: block;
+  color: #1211F5;
+  font-size: 13px;
+  position: absolute;
 }
 .form .focus-input {
   position: absolute;

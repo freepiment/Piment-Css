@@ -151,7 +151,7 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       width: 15px;
       height: 15px;
       border-radius: 15px;
-      top: -2px;
+      top: 0;
       left: -1px;
       position: relative;
       background-color: map-get($colors, "graylight");
@@ -165,7 +165,7 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       width: 15px;
       height: 15px;
       border-radius: 15px;
-      top: 6px;
+      top: 0;
       left: -1px;
       position: relative;
       background-color: map-get($colors, "blue");
@@ -175,21 +175,42 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       border: 1px solid map-get($colors, "graylight");
     }
   }
-
   .form-radio-inline {
     display: flex;
     flex-direction: row;
     column-gap: 1rem;
 
     input[type='radio']:after {
-      top: -2px;
+      top: 6px;
+      left: -1px;
+    }
+    input[type='radio']:checked:after {
+      top: 6px;
       left: -1px;
     }
   }
 
 
   .form-checkbox {
-
+    input[type=checkbox] {
+      border-radius: 15px;
+      height: 15px;
+      width: 15px;
+      background: white;
+      border: 1px solid map-get($colors, "blue");
+    }
+    input[type="checkbox"]:checked {
+      background: yellow;
+      margin:0px;
+      position: relative;
+      &:before {
+        content: 'X';
+        display: block;
+        color: map-get($colors, "blue");
+        font-size: 13px;
+        position: absolute;
+      }
+    }
   }
 
   .focus-input {
