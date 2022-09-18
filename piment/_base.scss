@@ -16,7 +16,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ul ul, ul ol, ol ol, ol ul {
   margin-bottom: 0;
 }
-ul, ol {
+ul, ol, dl {
   padding: 0;
   margin: 15px 0 10px 25px;
 }
@@ -40,15 +40,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 a {
+  font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
   text-decoration: none;
   background-color: transparent;
 }
 a:active, a:hover {
   outline: 0;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  margin-bottom: 10px;
 }
 @media screen and (min-width: 1920px) {
   body {

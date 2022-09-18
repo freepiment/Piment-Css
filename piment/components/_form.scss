@@ -33,6 +33,7 @@ textarea:-ms-input-placeholder {color: #cccccc;}
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
 
@@ -54,11 +55,26 @@ textarea:-ms-input-placeholder {color: #cccccc;}
     margin-bottom: 45px;
   }
 
+  .form-input {
+    position: relative;
+    display: block;
+    padding: .5rem;
+
+    .right .input {
+      padding-right: 3rem;
+    }
+
+    .left .input {
+      padding-left: 3rem;
+    }
+  }
+
   .label {
     font-size: 18px;
-    color: map-get($colors, "blue");
+    color: map-get($colors, "dark");
     line-height: 1.2;
-    padding-left: 2px;
+    padding-left: .5rem;
+
   }
 
   .input {
@@ -67,10 +83,32 @@ textarea:-ms-input-placeholder {color: #cccccc;}
     height: 50px;
     background: transparent;
     font-size: 22px;
-    color: map-get($colors, "blue");
+    color: map-get($colors, "dark");
     line-height: 1.2;
-    padding: 0 2px;
+    padding: 0 .5rem;
+    margin: .5rem 0;
+    border: 1px solid  map-get($colors, "blue");
+    border-radius: .4rem;
   }
+  .form-input-add {
+    position: relative;
+
+    .form-input-icon {
+      position: absolute;
+      top: .5rem;
+    }
+    .form-input-icon-right {
+      right: 1rem;
+      border-left: 1px solid map-get($colors, "blue");
+      padding: 0 0 0 8px;
+    }
+    .form-input-icon-left {
+      left: 1rem;
+      border-right: 1px solid map-get($colors, "blue");
+      padding: 0 8px 0 0;
+    }
+  }
+
   .focus-input {
     position: absolute;
     display: block;
