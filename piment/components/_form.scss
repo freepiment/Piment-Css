@@ -207,7 +207,7 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       -o-appearance: none;
       appearance: none;
       border: 1px solid map-get($colors, "blue");
-      border-radius: .4rem;
+      border-radius: 5px;
       outline: none;
       transition-duration: 0.3s;
       background-color: map-get($colors, "graylight");

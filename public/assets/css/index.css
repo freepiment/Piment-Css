@@ -3134,7 +3134,7 @@ textarea:-ms-input-placeholder {
   -o-appearance: none;
   appearance: none;
   border: 1px solid #1211F5;
-  border-radius: 0.4rem;
+  border-radius: 5px;
   outline: none;
   transition-duration: 0.3s;
   background-color: whitesmoke;
