@@ -741,6 +741,18 @@ a:hover:before {
   background-color: #fdfdfd;
 }
 
+.text-formcolor {
+  color: #2d2d2d;
+}
+
+.text-hover-formcolor:hover {
+  color: #2d2d2d;
+}
+
+.bg-formcolor {
+  background-color: #2d2d2d;
+}
+
 .card {
   display: block;
   padding: 1rem;
@@ -2661,6 +2673,179 @@ a:hover:before {
   right: -10px;
 }
 
+.btn-formcolor {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 1.625rem;
+  background-color: #2d2d2d;
+  font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
+  color: #fdfdfd;
+  padding: 0.75rem 1.5rem;
+  margin: 1.85rem 0;
+  transition: background-color 700ms linear;
+  vertical-align: middle;
+}
+.btn-formcolor:hover {
+  background-color: #535353;
+}
+
+.btn-outlined-formcolor {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #2d2d2d;
+  border-radius: 1.625rem;
+  background-color: #fdfdfd;
+  font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
+  color: #2d2d2d;
+  padding: 0.75rem 1.5rem;
+  margin: 1.85rem 0;
+  transition: background-color 700ms linear;
+  vertical-align: middle;
+}
+.btn-outlined-formcolor:hover {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #2d2d2d;
+  border-radius: 1.625rem;
+  background-color: #2d2d2d;
+  font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
+  color: #fdfdfd;
+  padding: 0.75rem 1.5rem;
+  margin: 1.85rem 0;
+  transition: background-color 700ms linear;
+  vertical-align: middle;
+}
+
+.option-formcolor {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.option-formcolor.option-formcolor {
+  width: 12rem;
+  height: auto;
+}
+.option-formcolor.option-formcolor .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #2d2d2d;
+  border-radius: 1.625rem;
+}
+.option-formcolor.option-formcolor .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fdfdfd;
+}
+.option-formcolor.option-formcolor .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+.option-formcolor.option-formcolor .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+.option-formcolor.option-formcolor .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #2d2d2d;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+}
+.option-formcolor:hover .circle {
+  width: 100%;
+}
+.option-formcolor:hover .circle .icon.arrow {
+  background: #fdfdfd;
+  transform: translate(1rem, 0);
+}
+.option-formcolor:hover .button-text {
+  color: #fdfdfd;
+}
+
+.action-formcolor {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin: 1.85rem 0;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  border-radius: 1.625rem;
+  background-color: #2d2d2d;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 150ms ease-out;
+}
+.action-formcolor:focus, .action-formcolor:hover {
+  background-color: #2d2d2d;
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #2d2d2d;
+}
+.action-formcolor:active {
+  background-color: #2d2d2d;
+  box-shadow: 0 0 0 0.1875rem #2d2d2d, 0 0 0 0.375rem #2d2d2d;
+  transition-duration: 75ms;
+}
+.action-formcolor span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.action-formcolor span:after {
+  content: "\f2fb";
+  font-family: Material-Design-Iconic-Font, sans-serif;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 20px;
+  transition: 0.5s;
+}
+.action-formcolor:hover span:hover {
+  padding-right: 25px;
+}
+.action-formcolor:hover span:after {
+  opacity: 1;
+  right: -10px;
+}
+
 .back {
   /**position: fixed;
   top: 40px;
@@ -3016,7 +3201,7 @@ textarea:-ms-input-placeholder {
   line-height: 1.2;
   padding: 0 0.5rem;
   margin: 0.5rem 0;
-  border: 1px solid #1211F5;
+  border: 2px solid #2d2d2d;
   border-radius: 0.4rem;
 }
 .form .form-input .right .input {
@@ -3047,7 +3232,7 @@ textarea:-ms-input-placeholder {
   padding: 0 0.5rem;
   margin: 0.5rem 0;
   border: 0;
-  border-bottom: 1px solid #1211F5;
+  border-bottom: 2px solid #2d2d2d;
 }
 .form .form-input-styled .right .input {
   padding-right: 3rem;
@@ -3064,12 +3249,12 @@ textarea:-ms-input-placeholder {
 }
 .form .form-input-add .form-input-icon-right {
   right: 1rem;
-  border-left: 1px solid #1211F5;
+  border-left: 1px solid #2d2d2d;
   padding: 0 0 0 8px;
 }
 .form .form-input-add .form-input-icon-left {
   left: 1rem;
-  border-right: 1px solid #1211F5;
+  border-right: 1px solid #2d2d2d;
   padding: 0 8px 0 0;
 }
 .form .form-radio input[type=radio]:after {
@@ -3144,9 +3329,6 @@ textarea:-ms-input-placeholder {
   border: 2px solid #1211F5;
   background-color: #1211F5;
 }
-.form .form-checkbox label input[type=checkbox]:not(:checked) {
-  border: 2px solid #1211F5 !important;
-}
 .form .form-checkbox label input[type=checkbox]:checked + span::before {
   position: absolute;
   left: 5px;
@@ -3157,86 +3339,35 @@ textarea:-ms-input-placeholder {
   color: white;
   font-size: 18px;
 }
-.form .form-checkbox label input[type=checkbox]:active {
-  border: 2px solid #1211F5;
+.form .form-checkbox label input[type=checkbox]:not(:checked) {
+  border: 2px solid #1211F5 !important;
 }
-.form .green input[type=checkbox] {
-  border: 2px solid #1DF56F;
-}
-.form .green input[type=checkbox]:checked {
-  border: 2px solid #1DF56F;
-  background-color: #1DF56F;
-}
-.form .orange input[type=checkbox] {
-  border: 2px solid #fc8315;
-}
-.form .orange input[type=checkbox]:checked {
-  border: 2px solid #fc8315;
-  background-color: #fc8315;
-}
-.form .red input[type=checkbox] {
-  border: 2px solid #E9473E;
-}
-.form .red input[type=checkbox]:checked {
-  border: 2px solid #E9473E;
-  background-color: #E9473E;
-}
-.form .focus-input {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-}
-.form .focus-input::before {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  transition: all 0.4s;
-  background: #1211F5;
-  background: linear-gradient(45deg, #1211F5, #fc8315);
-}
-.form .input:focus + .focus-input::before {
-  width: 100%;
-}
-.form .has-val.input + .focus-input::before {
-  width: 100%;
-}
-.form .input-checkbox {
-  display: none;
-}
-.form .label-checkbox {
-  margin: 0;
-  display: block;
+.form .form-select {
   position: relative;
-  padding-left: 26px;
-  cursor: pointer;
+  display: block;
+  padding: 0.5rem;
 }
-.form .label-checkbox::before {
-  content: "\f26b";
-  font-family: Material-Design-Iconic-Font, sans-serif;
-  font-size: 13px;
-  color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 2px;
-  background: #e6e6e6;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.form .form-select label {
+  font-size: 18px;
+  color: #2d2d2d;
+  line-height: 1.2;
+  padding-left: 0.5rem;
 }
-.form .input-checkbox:checked + .label-checkbox::before {
-  color: #c87ef0;
+.form .form-select select {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  font-size: 22px;
+  color: #2d2d2d;
+  line-height: 1.2;
+  padding: 0 0.5rem;
+  margin: 0.5rem 0;
+  border: 2px solid #2d2d2d;
+  border-radius: 0.4rem;
+}
+.form .form-select select option {
+  background-color: whitesmoke;
 }
 .form .container-form-btn {
   width: 100%;
@@ -3248,9 +3379,6 @@ textarea:-ms-input-placeholder {
 .form .btn-form {
   min-width: 244px;
   line-height: 1.2;
-}
-.form i.zmdi {
-  vertical-align: middle;
 }
 
 .validate-input {

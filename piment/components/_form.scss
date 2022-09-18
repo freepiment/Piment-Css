@@ -71,11 +71,11 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       height: 50px;
       background: transparent;
       font-size: 22px;
-      color: map-get($colors, "dark");
+      color: map-get($colors, "formcolor");
       line-height: 1.2;
       padding: 0 .5rem;
       margin: .5rem 0;
-      border: 1px solid  map-get($colors, "blue");
+      border: 2px solid  map-get($colors, "formcolor");
       border-radius: .4rem;
     }
 
@@ -111,7 +111,7 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       padding: 0 .5rem;
       margin: .5rem 0;
       border: 0;
-      border-bottom: 1px solid  map-get($colors, "blue");
+      border-bottom: 2px solid  map-get($colors, "formcolor");
     }
 
     .right .input {
@@ -131,12 +131,12 @@ textarea:-ms-input-placeholder {color: #cccccc;}
     }
     .form-input-icon-right {
       right: 1rem;
-      border-left: 1px solid map-get($colors, "blue");
+      border-left: 1px solid map-get($colors, "formcolor");
       padding: 0 0 0 8px;
     }
     .form-input-icon-left {
       left: 1rem;
-      border-right: 1px solid map-get($colors, "blue");
+      border-right: 1px solid map-get($colors, "formcolor");
       padding: 0 8px 0 0;
     }
   }
@@ -211,130 +211,64 @@ textarea:-ms-input-placeholder {color: #cccccc;}
         transition-duration: 0.3s;
         background-color: map-get($colors, "graylight");
         cursor: pointer;
+
+        &:checked {
+          border: 2px solid map-get($colors, "blue");
+          background-color: map-get($colors, "blue");
+        }
+
+        &:checked + span::before {
+          position: absolute;
+          left: 5px;
+          top: -3px;
+          content: '\2713';
+          display: block;
+          text-align: center;
+          color: white;
+          font-size: 18px;
+        }
+
+        &:not(:checked) {
+          border: 2px solid map-get($colors, "blue")!important;
+        }
       }
+    }
 
-      input[type='checkbox']:checked {
-        border: 2px solid map-get($colors, "blue");
-        background-color: map-get($colors, "blue");
-      }
+  }
+  .form-select {
+    position: relative;
+    display: block;
+    padding: .5rem;
 
-      input[type='checkbox']:not(:checked) {
-        border: 2px solid map-get($colors, "blue")!important;
-      }
+    label {
+      font-size: 18px;
+      color: map-get($colors, "dark");
+      line-height: 1.2;
+      padding-left: .5rem;
 
-      input[type='checkbox']:checked + span::before {
-        position: absolute;
-        left: 5px;
-        top: -3px;
-        content: '\2713';
-        display: block;
-        text-align: center;
-        color: white;
-        font-size: 18px;  }
+    }
 
-      input[type='checkbox']:active {
-        border: 2px solid map-get($colors, "blue");
+    select {
+      display: block;
+      width: 100%;
+      height: 50px;
+      background: transparent;
+      font-size: 22px;
+      color: map-get($colors, "dark");
+      line-height: 1.2;
+      padding: 0 .5rem;
+      margin: .5rem 0;
+      border: 2px solid  map-get($colors, "formcolor");
+      border-radius: .4rem;
+
+      option {
+        background-color: map-get($colors, "graylight");
+        color: map-get($colors, "formcolors");
       }
     }
 
   }
 
-  .green input[type='checkbox'] {
-    border: 2px solid map-get($colors, "green");
-  }
-  .green input[type='checkbox']:checked {
-    border: 2px solid map-get($colors, "green");
-    background-color: map-get($colors, "green");
-  }
-
-  .orange input[type='checkbox'] {
-    border: 2px solid map-get($colors, "orange");
-  }
-  .orange input[type='checkbox']:checked {
-    border: 2px solid map-get($colors, "orange");
-    background-color: map-get($colors, "orange");
-  }
-
-  .red input[type='checkbox'] {
-    border: 2px solid map-get($colors, "red");
-  }
-  .red input[type='checkbox']:checked {
-    border: 2px solid map-get($colors, "red");
-    background-color: map-get($colors, "red");
-  }
-
-  .focus-input {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-  }
-  .focus-input::before {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
-    background: map-get($colors, "blue");
-    background: -webkit-linear-gradient(45deg, map-get($colors, "blue"), map-get($colors, "orange"));
-    background: -o-linear-gradient(45deg, map-get($colors, "blue"), map-get($colors, "orange"));
-    background: -moz-linear-gradient(45deg, map-get($colors, "blue"), map-get($colors, "orange"));
-    background: linear-gradient(45deg, map-get($colors, "blue"), map-get($colors, "orange"));
-  }
-  .input:focus + .focus-input::before {
-    width: 100%;
-  }
-  .has-val.input + .focus-input::before {
-    width: 100%;
-  }
-
-  .input-checkbox {display: none;}
-  .label-checkbox {
-    margin: 0;
-    display: block;
-    position: relative;
-    padding-left: 26px;
-    cursor: pointer;
-  }
-  .label-checkbox::before {
-    content: "\f26b";
-    font-family: Material-Design-Iconic-Font, sans-serif;
-    font-size: 13px;
-    color: transparent;
-
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 2px;
-    background: #e6e6e6;
-    left: 0;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-
-  .input-checkbox:checked + .label-checkbox::before {
-    color: #c87ef0;
-  }
 
   .container-form-btn {
     width: 100%;
@@ -350,9 +284,6 @@ textarea:-ms-input-placeholder {color: #cccccc;}
   .btn-form {
     min-width: 244px;
     line-height: 1.2;
-  }
-  i.zmdi {
-    vertical-align: middle;
   }
 
 }
