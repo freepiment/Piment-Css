@@ -21,7 +21,7 @@ npm install --global gulp-cli
 
 ## Install the gulp package in your devDependencies
 ```
-npm install --save-dev gulp gulp-sass sass gulp-autoprefixer gulp-clean-css gulp-rename
+npm install --save-dev gulp gulp-sass sass gulp-autoprefixer gulp-clean-css gulp-rename gulp-sourcemaps
 ```
 
 ## Start watch and compile
