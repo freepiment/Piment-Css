@@ -176,11 +176,11 @@ textarea:-ms-input-placeholder {color: #cccccc;}
     column-gap: 1rem;
 
     input[type='radio']:after {
-      top: 6px;
+      top: 0;
       left: -1px;
     }
     input[type='radio']:checked:after {
-      top: 6px;
+      top: 0;
       left: -1px;
     }
   }
@@ -232,7 +232,12 @@ textarea:-ms-input-placeholder {color: #cccccc;}
 
     input[type='checkbox']:active {
       border: 1px solid map-get($colors, "blue");
+      background-color: map-get($colors, "graylight");
     }
+    input[type='checkbox']:not(:checked) {
+      border: 1px solid map-get($colors, "blue");
+    }
+
   }
 
   .green input[type='checkbox'] {
