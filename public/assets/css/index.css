@@ -716,6 +716,18 @@ a:hover:before {
   background-color: #6c6c6c;
 }
 
+.text-graylight {
+  color: whitesmoke;
+}
+
+.text-hover-graylight:hover {
+  color: whitesmoke;
+}
+
+.bg-graylight {
+  background-color: whitesmoke;
+}
+
 .text-white {
   color: #fdfdfd;
 }
@@ -2302,6 +2314,179 @@ a:hover:before {
   right: -10px;
 }
 
+.btn-graylight {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 1.625rem;
+  background-color: whitesmoke;
+  font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
+  color: #fdfdfd;
+  padding: 0.75rem 1.5rem;
+  margin: 1.85rem 0;
+  transition: background-color 700ms linear;
+  vertical-align: middle;
+}
+.btn-graylight:hover {
+  background-color: white;
+}
+
+.btn-outlined-graylight {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid whitesmoke;
+  border-radius: 1.625rem;
+  background-color: #fdfdfd;
+  font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
+  color: whitesmoke;
+  padding: 0.75rem 1.5rem;
+  margin: 1.85rem 0;
+  transition: background-color 700ms linear;
+  vertical-align: middle;
+}
+.btn-outlined-graylight:hover {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid whitesmoke;
+  border-radius: 1.625rem;
+  background-color: whitesmoke;
+  font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
+  color: #fdfdfd;
+  padding: 0.75rem 1.5rem;
+  margin: 1.85rem 0;
+  transition: background-color 700ms linear;
+  vertical-align: middle;
+}
+
+.option-graylight {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.option-graylight.option-graylight {
+  width: 12rem;
+  height: auto;
+}
+.option-graylight.option-graylight .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: whitesmoke;
+  border-radius: 1.625rem;
+}
+.option-graylight.option-graylight .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fdfdfd;
+}
+.option-graylight.option-graylight .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+.option-graylight.option-graylight .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+.option-graylight.option-graylight .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: whitesmoke;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+}
+.option-graylight:hover .circle {
+  width: 100%;
+}
+.option-graylight:hover .circle .icon.arrow {
+  background: #fdfdfd;
+  transform: translate(1rem, 0);
+}
+.option-graylight:hover .button-text {
+  color: #fdfdfd;
+}
+
+.action-graylight {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin: 1.85rem 0;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  border-radius: 1.625rem;
+  background-color: whitesmoke;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 150ms ease-out;
+}
+.action-graylight:focus, .action-graylight:hover {
+  background-color: whitesmoke;
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem whitesmoke;
+}
+.action-graylight:active {
+  background-color: whitesmoke;
+  box-shadow: 0 0 0 0.1875rem whitesmoke, 0 0 0 0.375rem whitesmoke;
+  transition-duration: 75ms;
+}
+.action-graylight span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.action-graylight span:after {
+  content: "\f2fb";
+  font-family: Material-Design-Iconic-Font, sans-serif;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 20px;
+  transition: 0.5s;
+}
+.action-graylight:hover span:hover {
+  padding-right: 25px;
+}
+.action-graylight:hover span:after {
+  opacity: 1;
+  right: -10px;
+}
+
 .btn-white {
   text-decoration: none;
   cursor: pointer;
@@ -2826,7 +3011,7 @@ textarea:-ms-input-placeholder {
   height: 50px;
   font-size: 22px;
   color: #2d2d2d;
-  background-color: #f9f9f9;
+  background-color: whitesmoke;
   line-height: 1.2;
   padding: 0 0.5rem;
   margin: 0.5rem 0;
@@ -2885,6 +3070,42 @@ textarea:-ms-input-placeholder {
   left: 1rem;
   border-right: 1px solid #1211F5;
   padding: 0 8px 0 0;
+}
+.form .form-radio input[type=radio]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: whitesmoke;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #1211F5;
+}
+.form .form-radio input[type=radio]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: 6px;
+  left: -1px;
+  position: relative;
+  background-color: #1211F5;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid whitesmoke;
+}
+.form .form-radio-inline {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.form .form-radio-inline input[type=radio]:after {
+  top: -2px;
+  left: -1px;
 }
 .form .focus-input {
   position: absolute;

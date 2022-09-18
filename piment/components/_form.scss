@@ -74,7 +74,7 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       height: 50px;
       font-size: 22px;
       color: map-get($colors, "dark");
-      background-color: #f9f9f9;
+      background-color: map-get($colors, "graylight");
       line-height: 1.2;
       padding: 0 .5rem;
       margin: .5rem 0;
@@ -144,6 +144,52 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       border-right: 1px solid map-get($colors, "blue");
       padding: 0 8px 0 0;
     }
+  }
+
+  .form-radio {
+    input[type='radio']:after {
+      width: 15px;
+      height: 15px;
+      border-radius: 15px;
+      top: -2px;
+      left: -1px;
+      position: relative;
+      background-color: map-get($colors, "graylight");
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      border: 1px solid map-get($colors, "blue");
+    }
+
+    input[type='radio']:checked:after {
+      width: 15px;
+      height: 15px;
+      border-radius: 15px;
+      top: 6px;
+      left: -1px;
+      position: relative;
+      background-color: map-get($colors, "blue");
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      border: 1px solid map-get($colors, "graylight");
+    }
+  }
+
+  .form-radio-inline {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+
+    input[type='radio']:after {
+      top: -2px;
+      left: -1px;
+    }
+  }
+
+
+  .form-checkbox {
+
   }
 
   .focus-input {
