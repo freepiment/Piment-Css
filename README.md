@@ -4,6 +4,20 @@
 
 **Piment CSS** is a css micro-framework made by Webmonster Antilles.
 
+## Change Log
+All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
+ 
+## [0.3.30] - 2022-09-18
+ 
+Here we write upgrade notes. It's a team effort to make them as simple as possible.
+ 
+### Added
+- MINOR Add html form elements.
+- MINOR Add input[type="text"] form element.
+- MINOR Add input[type="radio"] form element.
+- MINOR Add input[type="checkbox"] form element.
+- MINOR Add select form element.
+
 ## Basic install
 ```
 npm i pimentcss
@@ -44,7 +58,7 @@ gulp dev
 
 ![img](https://jobboard.webmonster.tech/assets/images/webmonster/logo-dark.png)
 
-Visiter la communauté [Webmonster](https://discord.gg/XU4g5WfH4R) sur Discord.
+Visit the community [Webmonster](https://discord.gg/XU4g5WfH4R) sur Discord.
 
-## Remerciements
+## Acknowledgements
 Thanks to : WestInDev, Ronny, Christelle, Eric, R3tr0_, SignedA, Kenjisupremacy, Chriss, SoniaV, webplusm, Jeed0, Kisaman_Steeven, FabienF, FVR71F, Nautilias and all Webmonster Community.
