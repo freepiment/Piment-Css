@@ -3084,7 +3084,7 @@ textarea:-ms-input-placeholder {
   display: inline-block;
   visibility: visible;
   transition-duration: 0.3s;
-  border: 1px solid #1211F5;
+  border: 2px solid #1211F5;
 }
 .form .form-radio input[type=radio]:checked:after {
   width: 15px;
@@ -3097,7 +3097,7 @@ textarea:-ms-input-placeholder {
   content: "";
   display: inline-block;
   visibility: visible;
-  border: 1px solid whitesmoke;
+  border: 2px solid whitesmoke;
 }
 .form .form-radio-inline {
   display: flex;
@@ -3126,7 +3126,7 @@ textarea:-ms-input-placeholder {
   display: flex;
   align-items: baseline;
 }
-.form .form-checkbox input[type=checkbox] {
+.form .form-checkbox label input[type=checkbox] {
   height: 15px;
   width: 15px;
   -webkit-appearance: none;
@@ -3140,46 +3140,45 @@ textarea:-ms-input-placeholder {
   background-color: whitesmoke;
   cursor: pointer;
 }
-.form .form-checkbox input[type=checkbox]:checked {
-  border: 1px solid #1211F5;
+.form .form-checkbox label input[type=checkbox]:checked {
+  border: 2px solid #1211F5;
   background-color: #1211F5;
 }
-.form .form-checkbox input[type=checkbox]:checked + span::before {
+.form .form-checkbox label input[type=checkbox]:not(:checked) {
+  border: 2px solid #1211F5 !important;
+}
+.form .form-checkbox label input[type=checkbox]:checked + span::before {
+  position: absolute;
+  left: 5px;
+  top: -3px;
   content: "✓";
   display: block;
   text-align: center;
   color: white;
   font-size: 18px;
-  position: absolute;
-  left: 5px;
-  top: -3px;
 }
-.form .form-checkbox input[type=checkbox]:active {
-  border: 1px solid #1211F5;
-  background-color: whitesmoke;
-}
-.form .form-checkbox input[type=checkbox]:not(:checked) {
-  border: 1px solid #1211F5;
+.form .form-checkbox label input[type=checkbox]:active {
+  border: 2px solid #1211F5;
 }
 .form .green input[type=checkbox] {
-  border: 1px solid #1DF56F;
+  border: 2px solid #1DF56F;
 }
 .form .green input[type=checkbox]:checked {
-  border: 1px solid #1DF56F;
+  border: 2px solid #1DF56F;
   background-color: #1DF56F;
 }
 .form .orange input[type=checkbox] {
-  border: 1px solid #fc8315;
+  border: 2px solid #fc8315;
 }
 .form .orange input[type=checkbox]:checked {
-  border: 1px solid #fc8315;
+  border: 2px solid #fc8315;
   background-color: #fc8315;
 }
 .form .red input[type=checkbox] {
-  border: 1px solid #E9473E;
+  border: 2px solid #E9473E;
 }
 .form .red input[type=checkbox]:checked {
-  border: 1px solid #E9473E;
+  border: 2px solid #E9473E;
   background-color: #E9473E;
 }
 .form .focus-input {
