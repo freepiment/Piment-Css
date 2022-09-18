@@ -2809,24 +2809,48 @@ textarea:-ms-input-placeholder {
   border-bottom: 2px solid #dbdbdb;
   margin-bottom: 45px;
 }
-.form .form-input {
+.form .form-input-styled {
   position: relative;
   display: block;
   padding: 0.5rem;
 }
-.form .form-input .right .input {
-  padding-right: 3rem;
-}
-.form .form-input .left .input {
-  padding-left: 3rem;
-}
-.form .label {
+.form .form-input-styled .label {
   font-size: 18px;
   color: #2d2d2d;
   line-height: 1.2;
   padding-left: 0.5rem;
 }
-.form .input {
+.form .form-input-styled .input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: 22px;
+  color: #2d2d2d;
+  background-color: #f9f9f9;
+  line-height: 1.2;
+  padding: 0 0.5rem;
+  margin: 0.5rem 0;
+  border: 0;
+  border-bottom: 1px solid #1211F5;
+}
+.form .form-input-styled .right .input {
+  padding-right: 3rem;
+}
+.form .form-input-styled .left .input {
+  padding-left: 3rem;
+}
+.form .form-input {
+  position: relative;
+  display: block;
+  padding: 0.5rem;
+}
+.form .form-input .label {
+  font-size: 18px;
+  color: #2d2d2d;
+  line-height: 1.2;
+  padding-left: 0.5rem;
+}
+.form .form-input .input {
   display: block;
   width: 100%;
   height: 50px;
@@ -2838,6 +2862,12 @@ textarea:-ms-input-placeholder {
   margin: 0.5rem 0;
   border: 1px solid #1211F5;
   border-radius: 0.4rem;
+}
+.form .form-input .right .input {
+  padding-right: 3rem;
+}
+.form .form-input .left .input {
+  padding-left: 3rem;
 }
 .form .form-input-add {
   position: relative;

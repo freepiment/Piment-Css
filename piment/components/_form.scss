@@ -55,10 +55,32 @@ textarea:-ms-input-placeholder {color: #cccccc;}
     margin-bottom: 45px;
   }
 
-  .form-input {
+  .form-input-styled {
     position: relative;
     display: block;
     padding: .5rem;
+
+    .label {
+      font-size: 18px;
+      color: map-get($colors, "dark");
+      line-height: 1.2;
+      padding-left: .5rem;
+
+    }
+
+    .input {
+      display: block;
+      width: 100%;
+      height: 50px;
+      font-size: 22px;
+      color: map-get($colors, "dark");
+      background-color: #f9f9f9;
+      line-height: 1.2;
+      padding: 0 .5rem;
+      margin: .5rem 0;
+      border: 0;
+      border-bottom: 1px solid  map-get($colors, "blue");
+    }
 
     .right .input {
       padding-right: 3rem;
@@ -69,27 +91,42 @@ textarea:-ms-input-placeholder {color: #cccccc;}
     }
   }
 
-  .label {
-    font-size: 18px;
-    color: map-get($colors, "dark");
-    line-height: 1.2;
-    padding-left: .5rem;
-
-  }
-
-  .input {
+  .form-input {
+    position: relative;
     display: block;
-    width: 100%;
-    height: 50px;
-    background: transparent;
-    font-size: 22px;
-    color: map-get($colors, "dark");
-    line-height: 1.2;
-    padding: 0 .5rem;
-    margin: .5rem 0;
-    border: 1px solid  map-get($colors, "blue");
-    border-radius: .4rem;
+    padding: .5rem;
+
+    .label {
+      font-size: 18px;
+      color: map-get($colors, "dark");
+      line-height: 1.2;
+      padding-left: .5rem;
+
+    }
+
+    .input {
+      display: block;
+      width: 100%;
+      height: 50px;
+      background: transparent;
+      font-size: 22px;
+      color: map-get($colors, "dark");
+      line-height: 1.2;
+      padding: 0 .5rem;
+      margin: .5rem 0;
+      border: 1px solid  map-get($colors, "blue");
+      border-radius: .4rem;
+    }
+
+    .right .input {
+      padding-right: 3rem;
+    }
+
+    .left .input {
+      padding-left: 3rem;
+    }
   }
+
   .form-input-add {
     position: relative;
 
