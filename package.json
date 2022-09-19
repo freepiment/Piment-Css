@@ -15,7 +15,10 @@
     "checkbox",
     "input",
     "sass",
-    "boilerplate"
+    "boilerplate",
+    "responsive",
+    "front-end",
+    "web"
   ],
   "author": "Webmonster",
   "license": "MIT",
