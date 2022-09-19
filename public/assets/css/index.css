@@ -3908,6 +3908,16 @@ img, video, svg {
   max-width: 100%;
 }
 
+.img-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.img-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .imgs {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
@@ -3980,8 +3990,6 @@ img, video, svg {
   width: 100%;
   min-height: 100%;
   transition: all 0.3s;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .img-zoom:hover img {
   transform: scale(1.2);

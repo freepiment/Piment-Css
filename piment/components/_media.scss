@@ -3,6 +3,12 @@
 img, video, svg {
   max-width: 100%;
 }
+.img-contain {
+  object-fit: contain;
+}
+.img-cover {
+  object-fit: cover;
+}
 .imgs {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
@@ -90,7 +96,6 @@ img, video, svg {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    object-fit: cover;
   }
   &:hover img{
     transform:scale(1.2);
