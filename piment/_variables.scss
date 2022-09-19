@@ -1,9 +1,9 @@
 @use 'sass:math';
 
 // THEME COLORS
-$info: 	  hsla(41, 99%, 71% / 100%);
-$error:   hsla(357, 47%, 48% / 100%);
-$success: hsla(141, 50%, 35% / 100%);
+$info: 	  hsl(41, 99%, 71%);
+$error:   hsl(357, 47%, 48%);
+$success: hsl(141, 50%, 35%);
 
 // color palette
 $colors: (

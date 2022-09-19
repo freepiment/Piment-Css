@@ -578,39 +578,39 @@ a:hover:before {
 }
 
 .text-error {
-  color: hsl(357deg, 47%, 0.48%);
+  color: hsl(357deg, 47%, 48%);
 }
 
 .text-hover-error:hover {
-  color: hsl(357deg, 47%, 0.48%);
+  color: hsl(357deg, 47%, 48%);
 }
 
 .bg-error {
-  background-color: hsl(357deg, 47%, 0.48%);
+  background-color: hsl(357deg, 47%, 48%);
 }
 
 .text-info {
-  color: hsl(41deg, 99%, 0.71%);
+  color: hsl(41deg, 99%, 71%);
 }
 
 .text-hover-info:hover {
-  color: hsl(41deg, 99%, 0.71%);
+  color: hsl(41deg, 99%, 71%);
 }
 
 .bg-info {
-  background-color: hsl(41deg, 99%, 0.71%);
+  background-color: hsl(41deg, 99%, 71%);
 }
 
 .text-success {
-  color: hsl(141deg, 50%, 0.35%);
+  color: hsl(141deg, 50%, 35%);
 }
 
 .text-hover-success:hover {
-  color: hsl(141deg, 50%, 0.35%);
+  color: hsl(141deg, 50%, 35%);
 }
 
 .bg-success {
-  background-color: hsl(141deg, 50%, 0.35%);
+  background-color: hsl(141deg, 50%, 35%);
 }
 
 .text-red {
@@ -776,7 +776,7 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: hsl(357deg, 47%, 0.48%);
+  background-color: hsl(357deg, 47%, 48%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
   color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
@@ -785,18 +785,18 @@ a:hover:before {
   vertical-align: middle;
 }
 .btn-error:hover {
-  background-color: #3a1517;
+  background-color: #cd7479;
 }
 
 .btn-outlined-error {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid hsl(357deg, 47%, 0.48%);
+  border: 1px solid hsl(357deg, 47%, 48%);
   border-radius: 1.625rem;
   background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: hsl(357deg, 47%, 0.48%);
+  color: hsl(357deg, 47%, 48%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -806,9 +806,9 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid hsl(357deg, 47%, 0.48%);
+  border: 1px solid hsl(357deg, 47%, 48%);
   border-radius: 1.625rem;
-  background-color: hsl(357deg, 47%, 0.48%);
+  background-color: hsl(357deg, 47%, 48%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
   color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
@@ -841,7 +841,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: hsl(357deg, 47%, 0.48%);
+  background: hsl(357deg, 47%, 48%);
   border-radius: 1.625rem;
 }
 .option-error.option-error .circle .icon {
@@ -879,7 +879,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: hsl(357deg, 47%, 0.48%);
+  color: hsl(357deg, 47%, 48%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -905,19 +905,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: hsl(357deg, 47%, 0.48%);
+  background-color: hsl(357deg, 47%, 48%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-error:focus, .action-error:hover {
-  background-color: hsl(357deg, 47%, 0.48%);
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(357deg, 47%, 0.48%);
+  background-color: hsl(357deg, 47%, 48%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(357deg, 47%, 48%);
 }
 .action-error:active {
-  background-color: hsl(357deg, 47%, 0.48%);
-  box-shadow: 0 0 0 0.1875rem hsl(357deg, 47%, 0.48%), 0 0 0 0.375rem hsl(357deg, 47%, 0.48%);
+  background-color: hsl(357deg, 47%, 48%);
+  box-shadow: 0 0 0 0.1875rem hsl(357deg, 47%, 48%), 0 0 0 0.375rem hsl(357deg, 47%, 48%);
   transition-duration: 75ms;
 }
 .action-error span {
@@ -949,7 +949,7 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: hsl(41deg, 99%, 0.71%);
+  background-color: hsl(41deg, 99%, 71%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
   color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
@@ -958,18 +958,18 @@ a:hover:before {
   vertical-align: middle;
 }
 .btn-info:hover {
-  background-color: #503700;
+  background-color: #ffe8b8;
 }
 
 .btn-outlined-info {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid hsl(41deg, 99%, 0.71%);
+  border: 1px solid hsl(41deg, 99%, 71%);
   border-radius: 1.625rem;
   background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: hsl(41deg, 99%, 0.71%);
+  color: hsl(41deg, 99%, 71%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -979,9 +979,9 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid hsl(41deg, 99%, 0.71%);
+  border: 1px solid hsl(41deg, 99%, 71%);
   border-radius: 1.625rem;
-  background-color: hsl(41deg, 99%, 0.71%);
+  background-color: hsl(41deg, 99%, 71%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
   color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
@@ -1014,7 +1014,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: hsl(41deg, 99%, 0.71%);
+  background: hsl(41deg, 99%, 71%);
   border-radius: 1.625rem;
 }
 .option-info.option-info .circle .icon {
@@ -1052,7 +1052,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: hsl(41deg, 99%, 0.71%);
+  color: hsl(41deg, 99%, 71%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -1078,19 +1078,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: hsl(41deg, 99%, 0.71%);
+  background-color: hsl(41deg, 99%, 71%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-info:focus, .action-info:hover {
-  background-color: hsl(41deg, 99%, 0.71%);
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(41deg, 99%, 0.71%);
+  background-color: hsl(41deg, 99%, 71%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(41deg, 99%, 71%);
 }
 .action-info:active {
-  background-color: hsl(41deg, 99%, 0.71%);
-  box-shadow: 0 0 0 0.1875rem hsl(41deg, 99%, 0.71%), 0 0 0 0.375rem hsl(41deg, 99%, 0.71%);
+  background-color: hsl(41deg, 99%, 71%);
+  box-shadow: 0 0 0 0.1875rem hsl(41deg, 99%, 71%), 0 0 0 0.375rem hsl(41deg, 99%, 71%);
   transition-duration: 75ms;
 }
 .action-info span {
@@ -1122,7 +1122,7 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: hsl(141deg, 50%, 0.35%);
+  background-color: hsl(141deg, 50%, 35%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
   color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
@@ -1131,18 +1131,18 @@ a:hover:before {
   vertical-align: middle;
 }
 .btn-success:hover {
-  background-color: #143b21;
+  background-color: #40bf6c;
 }
 
 .btn-outlined-success {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid hsl(141deg, 50%, 0.35%);
+  border: 1px solid hsl(141deg, 50%, 35%);
   border-radius: 1.625rem;
   background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: hsl(141deg, 50%, 0.35%);
+  color: hsl(141deg, 50%, 35%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1152,9 +1152,9 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid hsl(141deg, 50%, 0.35%);
+  border: 1px solid hsl(141deg, 50%, 35%);
   border-radius: 1.625rem;
-  background-color: hsl(141deg, 50%, 0.35%);
+  background-color: hsl(141deg, 50%, 35%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
   color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
@@ -1187,7 +1187,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: hsl(141deg, 50%, 0.35%);
+  background: hsl(141deg, 50%, 35%);
   border-radius: 1.625rem;
 }
 .option-success.option-success .circle .icon {
@@ -1225,7 +1225,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: hsl(141deg, 50%, 0.35%);
+  color: hsl(141deg, 50%, 35%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -1251,19 +1251,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: hsl(141deg, 50%, 0.35%);
+  background-color: hsl(141deg, 50%, 35%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-success:focus, .action-success:hover {
-  background-color: hsl(141deg, 50%, 0.35%);
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(141deg, 50%, 0.35%);
+  background-color: hsl(141deg, 50%, 35%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(141deg, 50%, 35%);
 }
 .action-success:active {
-  background-color: hsl(141deg, 50%, 0.35%);
-  box-shadow: 0 0 0 0.1875rem hsl(141deg, 50%, 0.35%), 0 0 0 0.375rem hsl(141deg, 50%, 0.35%);
+  background-color: hsl(141deg, 50%, 35%);
+  box-shadow: 0 0 0 0.1875rem hsl(141deg, 50%, 35%), 0 0 0 0.375rem hsl(141deg, 50%, 35%);
   transition-duration: 75ms;
 }
 .action-success span {
@@ -3390,14 +3390,14 @@ textarea:-ms-input-placeholder {
   position: absolute;
   max-width: 70%;
   background-color: hsl(0deg, 0%, 99%);
-  border: 1px solid hsl(357deg, 47%, 0.48%);
+  border: 1px solid hsl(357deg, 47%, 48%);
   border-radius: 2px;
   padding: 4px 30px 4px 10px;
   bottom: calc((100% - 25px) / 2);
   transform: translateY(50%);
   right: 2px;
   pointer-events: none;
-  color: hsl(357deg, 47%, 0.48%);
+  color: hsl(357deg, 47%, 48%);
   font-size: 14px;
   line-height: 1.4;
   text-align: left;
@@ -3828,8 +3828,34 @@ img, video, svg {
 .img-polaroid {
   padding: 4px;
   background-color: hsl(0deg, 0%, 99%);
-  border: 1px solid #e6e6e6;
+  border: 1px solid whitesmoke;
   box-shadow: 0 1px 3px rgba(230, 230, 230, 0.1);
+}
+
+.img-hover {
+  border: 1px solid transparent;
+}
+
+.img-hover:hover {
+  outline: 2px solid hsl(240deg, 92%, 51%);
+}
+
+.img-blur {
+  position: relative;
+  display: block;
+}
+
+.img-blur::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  -webkit-backdrop-filter: blur(3px) opacity(0.5) brightness(1.3);
+          backdrop-filter: blur(3px) opacity(0.5) brightness(1.3);
+}
+
+.img-blur:hover::after {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
 }
 
 .text-center {
