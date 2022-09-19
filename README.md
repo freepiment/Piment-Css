@@ -7,6 +7,22 @@
 ## Change Log
 All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
  
+## [0.3.31] - 2022-09-19
+
+Hey all the team thanks for your support. Here is a new version!
+
+### Added
+- MINOR Add img support.
+- MINOR Add .img-contain.
+- MINOR Add .img-cover.
+- MINOR Add .imgs (list images).
+- MINOR Add .img-rounded.
+- MINOR Add .img-circle.
+- MINOR Add .img-polaroid.
+- MINOR Add .img-hover.
+- MINOR Add .img-blur.
+
+
 ## [0.3.30] - 2022-09-18
  
 Here we write upgrade notes. It's a team effort to make them as simple as possible.
