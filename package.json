@@ -8,8 +8,14 @@
     "postpublish": "git push origin --tags"
   },
   "keywords": [
-    "css",
-    "framework"
+    "CSS",
+    "framework",
+    "css-framework",
+    "radio",
+    "checkbox",
+    "input",
+    "sass",
+    "boilerplate"
   ],
   "author": "Webmonster",
   "license": "MIT",
