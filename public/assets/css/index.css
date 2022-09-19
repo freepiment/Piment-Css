@@ -3980,6 +3980,8 @@ img, video, svg {
   width: 100%;
   min-height: 100%;
   transition: all 0.3s;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .img-zoom:hover img {
   transform: scale(1.2);

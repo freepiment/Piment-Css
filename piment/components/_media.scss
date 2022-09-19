@@ -90,6 +90,7 @@ img, video, svg {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    object-fit: cover;
   }
   &:hover img{
     transform:scale(1.2);
