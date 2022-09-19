@@ -3858,6 +3858,36 @@ img, video, svg {
           backdrop-filter: none;
 }
 
+.img-sepia img {
+  filter: sepia(100%);
+  transition: 0.3s ease-in-out;
+}
+
+.img-sepia:hover img {
+  filter: sepia(0);
+}
+
+.img-grayscale img {
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+
+.img-grayscale:hover img {
+  filter: grayscale(0);
+}
+
+.img-shadow-xs {
+  box-shadow: 4px 4px 10px 0 rgba(10, 10, 10, 0.5);
+}
+
+.img-shadow-md {
+  box-shadow: 6px 6px 10px 0 rgba(10, 10, 10, 0.5);
+}
+
+.img-shadow-lg {
+  box-shadow: 8px 8px 10px 0 rgba(10, 10, 10, 0.5);
+}
+
 .text-center {
   text-align: center;
 }

@@ -40,3 +40,32 @@ img, video, svg {
 .img-blur:hover::after {
   backdrop-filter: none;
 }
+.img-sepia img {
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.img-sepia:hover img {
+  -webkit-filter: sepia(0);
+  filter: sepia(0);
+}
+.img-grayscale img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.img-grayscale:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+.img-shadow-xs {
+  box-shadow:4px 4px 10px 0 rgba(10,10,10,0.5);
+}
+.img-shadow-md {
+  box-shadow:6px 6px 10px 0 rgba(10,10,10,0.5);
+}
+.img-shadow-lg {
+  box-shadow:8px 8px 10px 0 rgba(10,10,10,0.5);
+}
