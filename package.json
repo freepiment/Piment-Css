@@ -1,6 +1,6 @@
 {
   "name": "pimentcss",
-  "version": "0.3.30",
+  "version": "0.3.31",
   "description": "CSS Framework",
   "main": "index.js",
   "scripts": {
