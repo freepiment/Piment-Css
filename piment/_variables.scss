@@ -1,24 +1,24 @@
 @use 'sass:math';
 
 // THEME COLORS
-$info: #fecf6d;
-$error: #b34045;
-$success: #2d884d;
+$info: 	  hsla(41, 99%, 71% / 100%);
+$error:   hsla(357, 47%, 48% / 100%);
+$success: hsla(141, 50%, 35% / 100%);
 
 // color palette
 $colors: (
         "error": $error,
         "info": $info,
         "success": $success,
-        "red": #E9473E,
-        "blue": #1211F5,
-        "green": #1DF56F,
-        "orange": #fc8315,
-        "dark": #2d2d2d,
-        "gray": mix(white, #2d2d2d, 1 * 30),
-        "graylight": mix(white, #999999, 1 * 90),
-        "white": #fdfdfd,
-        "formcolor": #2d2d2d
+        "red":        hsl(3, 80%, 58%),
+        "blue":       hsl(240, 92%, 51%),
+        "green":      hsl(143, 92%, 54%),
+        "orange":     hsl(29, 97%, 54%),
+        "dark":       hsl(0, 0%, 18%),
+        "gray":       mix(white, hsl(0, 0%, 18%), 1 * 30),
+        "graylight":  mix(white, hsl(0, 0%, 60%), 1 * 90),
+        "white":      hsl(0, 0%, 99%),
+        "formcolor":  hsl(0, 0%, 18%),
 );
 
 // SPACING

@@ -1,0 +1,22 @@
+img, video, svg {
+  max-width: 100%;
+}
+
+.img-rounded {
+  -webkit-border-radius: $base-border-radius;
+  -moz-border-radius: $base-border-radius;
+  border-radius: $base-border-radius;
+}
+.img-circle {
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+}
+.img-polaroid {
+  padding: 4px;
+  background-color: map-get($colors, "white");
+  border: 1px solid #e6e6e6;
+  -webkit-box-shadow: 0 1px 3px rgb(230 230 230 / 10%);
+  -moz-box-shadow: 0 1px 3px rgba(230,230,230,.1);
+  box-shadow: 0 1px 3px rgb(230 230 230 / 10%);
+}

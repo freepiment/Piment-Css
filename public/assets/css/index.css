@@ -578,143 +578,143 @@ a:hover:before {
 }
 
 .text-error {
-  color: #b34045;
+  color: hsl(357deg, 47%, 0.48%);
 }
 
 .text-hover-error:hover {
-  color: #b34045;
+  color: hsl(357deg, 47%, 0.48%);
 }
 
 .bg-error {
-  background-color: #b34045;
+  background-color: hsl(357deg, 47%, 0.48%);
 }
 
 .text-info {
-  color: #fecf6d;
+  color: hsl(41deg, 99%, 0.71%);
 }
 
 .text-hover-info:hover {
-  color: #fecf6d;
+  color: hsl(41deg, 99%, 0.71%);
 }
 
 .bg-info {
-  background-color: #fecf6d;
+  background-color: hsl(41deg, 99%, 0.71%);
 }
 
 .text-success {
-  color: #2d884d;
+  color: hsl(141deg, 50%, 0.35%);
 }
 
 .text-hover-success:hover {
-  color: #2d884d;
+  color: hsl(141deg, 50%, 0.35%);
 }
 
 .bg-success {
-  background-color: #2d884d;
+  background-color: hsl(141deg, 50%, 0.35%);
 }
 
 .text-red {
-  color: #E9473E;
+  color: hsl(3deg, 80%, 58%);
 }
 
 .text-hover-red:hover {
-  color: #E9473E;
+  color: hsl(3deg, 80%, 58%);
 }
 
 .bg-red {
-  background-color: #E9473E;
+  background-color: hsl(3deg, 80%, 58%);
 }
 
 .text-blue {
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
 }
 
 .text-hover-blue:hover {
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
 }
 
 .bg-blue {
-  background-color: #1211F5;
+  background-color: hsl(240deg, 92%, 51%);
 }
 
 .text-blue-light-1 {
-  color: #4141f7;
+  color: #3f3ff7;
 }
 
 .bg-blue-light-1 {
-  background-color: #4141f7;
+  background-color: #3f3ff7;
 }
 
 .text-blue-light-2 {
-  color: #7170f9;
+  color: #6f6ff9;
 }
 
 .bg-blue-light-2 {
-  background-color: #7170f9;
+  background-color: #6f6ff9;
 }
 
 .text-blue-light-3 {
-  color: #a0a0fb;
+  color: #9f9ffb;
 }
 
 .bg-blue-light-3 {
-  background-color: #a0a0fb;
+  background-color: #9f9ffb;
 }
 
 .text-blue-light-4 {
-  color: #d0cffd;
+  color: #cfcffd;
 }
 
 .bg-blue-light-4 {
-  background-color: #d0cffd;
+  background-color: #cfcffd;
 }
 
 .text-green {
-  color: #1DF56F;
+  color: hsl(143deg, 92%, 54%);
 }
 
 .text-hover-green:hover {
-  color: #1DF56F;
+  color: hsl(143deg, 92%, 54%);
 }
 
 .bg-green {
-  background-color: #1DF56F;
+  background-color: hsl(143deg, 92%, 54%);
 }
 
 .text-orange {
-  color: #fc8315;
+  color: hsl(29deg, 97%, 54%);
 }
 
 .text-hover-orange:hover {
-  color: #fc8315;
+  color: hsl(29deg, 97%, 54%);
 }
 
 .bg-orange {
-  background-color: #fc8315;
+  background-color: hsl(29deg, 97%, 54%);
 }
 
 .text-dark {
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
 }
 
 .text-hover-dark:hover {
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
 }
 
 .bg-dark {
-  background-color: #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
 }
 
 .text-gray {
-  color: #6c6c6c;
+  color: #6d6d6d;
 }
 
 .text-hover-gray:hover {
-  color: #6c6c6c;
+  color: #6d6d6d;
 }
 
 .bg-gray {
-  background-color: #6c6c6c;
+  background-color: #6d6d6d;
 }
 
 .text-graylight {
@@ -730,27 +730,27 @@ a:hover:before {
 }
 
 .text-white {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .text-hover-white:hover {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .bg-white {
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
 }
 
 .text-formcolor {
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
 }
 
 .text-hover-formcolor:hover {
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
 }
 
 .bg-formcolor {
-  background-color: #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
 }
 
 .card {
@@ -761,7 +761,7 @@ a:hover:before {
   border-radius: 0.40625rem;
 }
 .card .card-title {
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
 }
 .card .card-body p {
   margin-bottom: 0.7416563659rem;
@@ -776,27 +776,27 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: #b34045;
+  background-color: hsl(357deg, 47%, 0.48%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
   vertical-align: middle;
 }
 .btn-error:hover {
-  background-color: #cd7377;
+  background-color: #3a1517;
 }
 
 .btn-outlined-error {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #b34045;
+  border: 1px solid hsl(357deg, 47%, 0.48%);
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #b34045;
+  color: hsl(357deg, 47%, 0.48%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -806,11 +806,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #b34045;
+  border: 1px solid hsl(357deg, 47%, 0.48%);
   border-radius: 1.625rem;
-  background-color: #b34045;
+  background-color: hsl(357deg, 47%, 0.48%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -841,7 +841,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #b34045;
+  background: hsl(357deg, 47%, 0.48%);
   border-radius: 1.625rem;
 }
 .option-error.option-error .circle .icon {
@@ -850,7 +850,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-error.option-error .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -879,7 +879,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #b34045;
+  color: hsl(357deg, 47%, 0.48%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -888,11 +888,11 @@ a:hover:before {
   width: 100%;
 }
 .option-error:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-error:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-error {
@@ -905,19 +905,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: #b34045;
+  background-color: hsl(357deg, 47%, 0.48%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-error:focus, .action-error:hover {
-  background-color: #b34045;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #b34045;
+  background-color: hsl(357deg, 47%, 0.48%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(357deg, 47%, 0.48%);
 }
 .action-error:active {
-  background-color: #b34045;
-  box-shadow: 0 0 0 0.1875rem #b34045, 0 0 0 0.375rem #b34045;
+  background-color: hsl(357deg, 47%, 0.48%);
+  box-shadow: 0 0 0 0.1875rem hsl(357deg, 47%, 0.48%), 0 0 0 0.375rem hsl(357deg, 47%, 0.48%);
   transition-duration: 75ms;
 }
 .action-error span {
@@ -949,27 +949,27 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: #fecf6d;
+  background-color: hsl(41deg, 99%, 0.71%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
   vertical-align: middle;
 }
 .btn-info:hover {
-  background-color: #ffe8b9;
+  background-color: #503700;
 }
 
 .btn-outlined-info {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #fecf6d;
+  border: 1px solid hsl(41deg, 99%, 0.71%);
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fecf6d;
+  color: hsl(41deg, 99%, 0.71%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -979,11 +979,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #fecf6d;
+  border: 1px solid hsl(41deg, 99%, 0.71%);
   border-radius: 1.625rem;
-  background-color: #fecf6d;
+  background-color: hsl(41deg, 99%, 0.71%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1014,7 +1014,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #fecf6d;
+  background: hsl(41deg, 99%, 0.71%);
   border-radius: 1.625rem;
 }
 .option-info.option-info .circle .icon {
@@ -1023,7 +1023,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-info.option-info .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -1052,7 +1052,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #fecf6d;
+  color: hsl(41deg, 99%, 0.71%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -1061,11 +1061,11 @@ a:hover:before {
   width: 100%;
 }
 .option-info:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-info:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-info {
@@ -1078,19 +1078,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: #fecf6d;
+  background-color: hsl(41deg, 99%, 0.71%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-info:focus, .action-info:hover {
-  background-color: #fecf6d;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #fecf6d;
+  background-color: hsl(41deg, 99%, 0.71%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(41deg, 99%, 0.71%);
 }
 .action-info:active {
-  background-color: #fecf6d;
-  box-shadow: 0 0 0 0.1875rem #fecf6d, 0 0 0 0.375rem #fecf6d;
+  background-color: hsl(41deg, 99%, 0.71%);
+  box-shadow: 0 0 0 0.1875rem hsl(41deg, 99%, 0.71%), 0 0 0 0.375rem hsl(41deg, 99%, 0.71%);
   transition-duration: 75ms;
 }
 .action-info span {
@@ -1122,27 +1122,27 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: #2d884d;
+  background-color: hsl(141deg, 50%, 0.35%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
   vertical-align: middle;
 }
 .btn-success:hover {
-  background-color: #41c06e;
+  background-color: #143b21;
 }
 
 .btn-outlined-success {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #2d884d;
+  border: 1px solid hsl(141deg, 50%, 0.35%);
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #2d884d;
+  color: hsl(141deg, 50%, 0.35%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1152,11 +1152,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #2d884d;
+  border: 1px solid hsl(141deg, 50%, 0.35%);
   border-radius: 1.625rem;
-  background-color: #2d884d;
+  background-color: hsl(141deg, 50%, 0.35%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1187,7 +1187,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #2d884d;
+  background: hsl(141deg, 50%, 0.35%);
   border-radius: 1.625rem;
 }
 .option-success.option-success .circle .icon {
@@ -1196,7 +1196,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-success.option-success .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -1225,7 +1225,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #2d884d;
+  color: hsl(141deg, 50%, 0.35%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -1234,11 +1234,11 @@ a:hover:before {
   width: 100%;
 }
 .option-success:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-success:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-success {
@@ -1251,19 +1251,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: #2d884d;
+  background-color: hsl(141deg, 50%, 0.35%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-success:focus, .action-success:hover {
-  background-color: #2d884d;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #2d884d;
+  background-color: hsl(141deg, 50%, 0.35%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(141deg, 50%, 0.35%);
 }
 .action-success:active {
-  background-color: #2d884d;
-  box-shadow: 0 0 0 0.1875rem #2d884d, 0 0 0 0.375rem #2d884d;
+  background-color: hsl(141deg, 50%, 0.35%);
+  box-shadow: 0 0 0 0.1875rem hsl(141deg, 50%, 0.35%), 0 0 0 0.375rem hsl(141deg, 50%, 0.35%);
   transition-duration: 75ms;
 }
 .action-success span {
@@ -1295,27 +1295,27 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: #E9473E;
+  background-color: hsl(3deg, 80%, 58%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
   vertical-align: middle;
 }
 .btn-red:hover {
-  background-color: #f18883;
+  background-color: #f18983;
 }
 
 .btn-outlined-red {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #E9473E;
+  border: 1px solid hsl(3deg, 80%, 58%);
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #E9473E;
+  color: hsl(3deg, 80%, 58%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1325,11 +1325,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #E9473E;
+  border: 1px solid hsl(3deg, 80%, 58%);
   border-radius: 1.625rem;
-  background-color: #E9473E;
+  background-color: hsl(3deg, 80%, 58%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1360,7 +1360,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #E9473E;
+  background: hsl(3deg, 80%, 58%);
   border-radius: 1.625rem;
 }
 .option-red.option-red .circle .icon {
@@ -1369,7 +1369,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-red.option-red .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -1398,7 +1398,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #E9473E;
+  color: hsl(3deg, 80%, 58%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -1407,11 +1407,11 @@ a:hover:before {
   width: 100%;
 }
 .option-red:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-red:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-red {
@@ -1424,19 +1424,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: #E9473E;
+  background-color: hsl(3deg, 80%, 58%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-red:focus, .action-red:hover {
-  background-color: #E9473E;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #E9473E;
+  background-color: hsl(3deg, 80%, 58%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(3deg, 80%, 58%);
 }
 .action-red:active {
-  background-color: #E9473E;
-  box-shadow: 0 0 0 0.1875rem #E9473E, 0 0 0 0.375rem #E9473E;
+  background-color: hsl(3deg, 80%, 58%);
+  box-shadow: 0 0 0 0.1875rem hsl(3deg, 80%, 58%), 0 0 0 0.375rem hsl(3deg, 80%, 58%);
   transition-duration: 75ms;
 }
 .action-red span {
@@ -1468,27 +1468,27 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: #1211F5;
+  background-color: hsl(240deg, 92%, 51%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
   vertical-align: middle;
 }
 .btn-blue:hover {
-  background-color: #5b5af8;
+  background-color: #5959f8;
 }
 
 .btn-outlined-blue {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #1211F5;
+  border: 1px solid hsl(240deg, 92%, 51%);
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1498,11 +1498,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #1211F5;
+  border: 1px solid hsl(240deg, 92%, 51%);
   border-radius: 1.625rem;
-  background-color: #1211F5;
+  background-color: hsl(240deg, 92%, 51%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1533,7 +1533,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #1211F5;
+  background: hsl(240deg, 92%, 51%);
   border-radius: 1.625rem;
 }
 .option-blue.option-blue .circle .icon {
@@ -1542,7 +1542,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-blue.option-blue .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -1571,7 +1571,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -1580,11 +1580,11 @@ a:hover:before {
   width: 100%;
 }
 .option-blue:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-blue:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-blue {
@@ -1597,19 +1597,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: #1211F5;
+  background-color: hsl(240deg, 92%, 51%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-blue:focus, .action-blue:hover {
-  background-color: #1211F5;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #1211F5;
+  background-color: hsl(240deg, 92%, 51%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(240deg, 92%, 51%);
 }
 .action-blue:active {
-  background-color: #1211F5;
-  box-shadow: 0 0 0 0.1875rem #1211F5, 0 0 0 0.375rem #1211F5;
+  background-color: hsl(240deg, 92%, 51%);
+  box-shadow: 0 0 0 0.1875rem hsl(240deg, 92%, 51%), 0 0 0 0.375rem hsl(240deg, 92%, 51%);
   transition-duration: 75ms;
 }
 .action-blue span {
@@ -1641,27 +1641,27 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: #1DF56F;
+  background-color: hsl(143deg, 92%, 54%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
   vertical-align: middle;
 }
 .btn-green:hover {
-  background-color: #66f89e;
+  background-color: #67f99f;
 }
 
 .btn-outlined-green {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #1DF56F;
+  border: 1px solid hsl(143deg, 92%, 54%);
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #1DF56F;
+  color: hsl(143deg, 92%, 54%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1671,11 +1671,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #1DF56F;
+  border: 1px solid hsl(143deg, 92%, 54%);
   border-radius: 1.625rem;
-  background-color: #1DF56F;
+  background-color: hsl(143deg, 92%, 54%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1706,7 +1706,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #1DF56F;
+  background: hsl(143deg, 92%, 54%);
   border-radius: 1.625rem;
 }
 .option-green.option-green .circle .icon {
@@ -1715,7 +1715,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-green.option-green .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -1744,7 +1744,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #1DF56F;
+  color: hsl(143deg, 92%, 54%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -1753,11 +1753,11 @@ a:hover:before {
   width: 100%;
 }
 .option-green:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-green:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-green {
@@ -1770,19 +1770,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: #1DF56F;
+  background-color: hsl(143deg, 92%, 54%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-green:focus, .action-green:hover {
-  background-color: #1DF56F;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #1DF56F;
+  background-color: hsl(143deg, 92%, 54%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(143deg, 92%, 54%);
 }
 .action-green:active {
-  background-color: #1DF56F;
-  box-shadow: 0 0 0 0.1875rem #1DF56F, 0 0 0 0.375rem #1DF56F;
+  background-color: hsl(143deg, 92%, 54%);
+  box-shadow: 0 0 0 0.1875rem hsl(143deg, 92%, 54%), 0 0 0 0.375rem hsl(143deg, 92%, 54%);
   transition-duration: 75ms;
 }
 .action-green span {
@@ -1814,27 +1814,27 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: #fc8315;
+  background-color: hsl(29deg, 97%, 54%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
   vertical-align: middle;
 }
 .btn-orange:hover {
-  background-color: #fdab61;
+  background-color: #fdad63;
 }
 
 .btn-outlined-orange {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #fc8315;
+  border: 1px solid hsl(29deg, 97%, 54%);
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fc8315;
+  color: hsl(29deg, 97%, 54%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1844,11 +1844,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #fc8315;
+  border: 1px solid hsl(29deg, 97%, 54%);
   border-radius: 1.625rem;
-  background-color: #fc8315;
+  background-color: hsl(29deg, 97%, 54%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -1879,7 +1879,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #fc8315;
+  background: hsl(29deg, 97%, 54%);
   border-radius: 1.625rem;
 }
 .option-orange.option-orange .circle .icon {
@@ -1888,7 +1888,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-orange.option-orange .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -1917,7 +1917,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #fc8315;
+  color: hsl(29deg, 97%, 54%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -1926,11 +1926,11 @@ a:hover:before {
   width: 100%;
 }
 .option-orange:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-orange:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-orange {
@@ -1943,19 +1943,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: #fc8315;
+  background-color: hsl(29deg, 97%, 54%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-orange:focus, .action-orange:hover {
-  background-color: #fc8315;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #fc8315;
+  background-color: hsl(29deg, 97%, 54%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(29deg, 97%, 54%);
 }
 .action-orange:active {
-  background-color: #fc8315;
-  box-shadow: 0 0 0 0.1875rem #fc8315, 0 0 0 0.375rem #fc8315;
+  background-color: hsl(29deg, 97%, 54%);
+  box-shadow: 0 0 0 0.1875rem hsl(29deg, 97%, 54%), 0 0 0 0.375rem hsl(29deg, 97%, 54%);
   transition-duration: 75ms;
 }
 .action-orange span {
@@ -1987,27 +1987,27 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
   vertical-align: middle;
 }
 .btn-dark:hover {
-  background-color: #535353;
+  background-color: #545454;
 }
 
 .btn-outlined-dark {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #2d2d2d;
+  border: 1px solid hsl(0deg, 0%, 18%);
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -2017,11 +2017,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #2d2d2d;
+  border: 1px solid hsl(0deg, 0%, 18%);
   border-radius: 1.625rem;
-  background-color: #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -2052,7 +2052,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #2d2d2d;
+  background: hsl(0deg, 0%, 18%);
   border-radius: 1.625rem;
 }
 .option-dark.option-dark .circle .icon {
@@ -2061,7 +2061,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-dark.option-dark .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -2090,7 +2090,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -2099,11 +2099,11 @@ a:hover:before {
   width: 100%;
 }
 .option-dark:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-dark:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-dark {
@@ -2116,19 +2116,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-dark:focus, .action-dark:hover {
-  background-color: #2d2d2d;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(0deg, 0%, 18%);
 }
 .action-dark:active {
-  background-color: #2d2d2d;
-  box-shadow: 0 0 0 0.1875rem #2d2d2d, 0 0 0 0.375rem #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
+  box-shadow: 0 0 0 0.1875rem hsl(0deg, 0%, 18%), 0 0 0 0.375rem hsl(0deg, 0%, 18%);
   transition-duration: 75ms;
 }
 .action-dark span {
@@ -2160,27 +2160,27 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: #6c6c6c;
+  background-color: #6d6d6d;
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
   vertical-align: middle;
 }
 .btn-gray:hover {
-  background-color: #929292;
+  background-color: #939393;
 }
 
 .btn-outlined-gray {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #6c6c6c;
+  border: 1px solid #6d6d6d;
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #6c6c6c;
+  color: #6d6d6d;
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -2190,11 +2190,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #6c6c6c;
+  border: 1px solid #6d6d6d;
   border-radius: 1.625rem;
-  background-color: #6c6c6c;
+  background-color: #6d6d6d;
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -2225,7 +2225,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #6c6c6c;
+  background: #6d6d6d;
   border-radius: 1.625rem;
 }
 .option-gray.option-gray .circle .icon {
@@ -2234,7 +2234,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-gray.option-gray .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -2263,7 +2263,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #6c6c6c;
+  color: #6d6d6d;
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -2272,11 +2272,11 @@ a:hover:before {
   width: 100%;
 }
 .option-gray:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-gray:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-gray {
@@ -2289,19 +2289,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: #6c6c6c;
+  background-color: #6d6d6d;
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-gray:focus, .action-gray:hover {
-  background-color: #6c6c6c;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #6c6c6c;
+  background-color: #6d6d6d;
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #6d6d6d;
 }
 .action-gray:active {
-  background-color: #6c6c6c;
-  box-shadow: 0 0 0 0.1875rem #6c6c6c, 0 0 0 0.375rem #6c6c6c;
+  background-color: #6d6d6d;
+  box-shadow: 0 0 0 0.1875rem #6d6d6d, 0 0 0 0.375rem #6d6d6d;
   transition-duration: 75ms;
 }
 .action-gray span {
@@ -2335,7 +2335,7 @@ a:hover:before {
   border-radius: 1.625rem;
   background-color: whitesmoke;
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -2351,7 +2351,7 @@ a:hover:before {
   display: inline-block;
   border: 1px solid whitesmoke;
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
   color: whitesmoke;
   padding: 0.75rem 1.5rem;
@@ -2367,7 +2367,7 @@ a:hover:before {
   border-radius: 1.625rem;
   background-color: whitesmoke;
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -2407,7 +2407,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-graylight.option-graylight .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -2445,11 +2445,11 @@ a:hover:before {
   width: 100%;
 }
 .option-graylight:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-graylight:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-graylight {
@@ -2506,9 +2506,9 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -2522,11 +2522,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #fdfdfd;
+  border: 1px solid hsl(0deg, 0%, 99%);
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -2536,11 +2536,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #fdfdfd;
+  border: 1px solid hsl(0deg, 0%, 99%);
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -2571,7 +2571,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   border-radius: 1.625rem;
 }
 .option-white.option-white .circle .icon {
@@ -2580,7 +2580,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-white.option-white .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -2609,7 +2609,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -2618,11 +2618,11 @@ a:hover:before {
   width: 100%;
 }
 .option-white:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-white:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-white {
@@ -2635,19 +2635,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-white:focus, .action-white:hover {
-  background-color: #fdfdfd;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(0deg, 0%, 99%);
 }
 .action-white:active {
-  background-color: #fdfdfd;
-  box-shadow: 0 0 0 0.1875rem #fdfdfd, 0 0 0 0.375rem #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
+  box-shadow: 0 0 0 0.1875rem hsl(0deg, 0%, 99%), 0 0 0 0.375rem hsl(0deg, 0%, 99%);
   transition-duration: 75ms;
 }
 .action-white span {
@@ -2679,27 +2679,27 @@ a:hover:before {
   display: inline-block;
   border: 0;
   border-radius: 1.625rem;
-  background-color: #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
   vertical-align: middle;
 }
 .btn-formcolor:hover {
-  background-color: #535353;
+  background-color: #545454;
 }
 
 .btn-outlined-formcolor {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #2d2d2d;
+  border: 1px solid hsl(0deg, 0%, 18%);
   border-radius: 1.625rem;
-  background-color: #fdfdfd;
+  background-color: hsl(0deg, 0%, 99%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -2709,11 +2709,11 @@ a:hover:before {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #2d2d2d;
+  border: 1px solid hsl(0deg, 0%, 18%);
   border-radius: 1.625rem;
-  background-color: #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
   font-size: clamp(1.2rem, 1rem + 1vw, 1.8rem);
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   padding: 0.75rem 1.5rem;
   margin: 1.85rem 0;
   transition: background-color 700ms linear;
@@ -2744,7 +2744,7 @@ a:hover:before {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #2d2d2d;
+  background: hsl(0deg, 0%, 18%);
   border-radius: 1.625rem;
 }
 .option-formcolor.option-formcolor .circle .icon {
@@ -2753,7 +2753,7 @@ a:hover:before {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
 }
 .option-formcolor.option-formcolor .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -2782,7 +2782,7 @@ a:hover:before {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
@@ -2791,11 +2791,11 @@ a:hover:before {
   width: 100%;
 }
 .option-formcolor:hover .circle .icon.arrow {
-  background: #fdfdfd;
+  background: hsl(0deg, 0%, 99%);
   transform: translate(1rem, 0);
 }
 .option-formcolor:hover .button-text {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 .action-formcolor {
@@ -2808,19 +2808,19 @@ a:hover:before {
   border: none;
   outline: none;
   border-radius: 1.625rem;
-  background-color: #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
   color: white;
   text-decoration: none;
   cursor: pointer;
   transition: all 150ms ease-out;
 }
 .action-formcolor:focus, .action-formcolor:hover {
-  background-color: #2d2d2d;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem hsl(0deg, 0%, 18%);
 }
 .action-formcolor:active {
-  background-color: #2d2d2d;
-  box-shadow: 0 0 0 0.1875rem #2d2d2d, 0 0 0 0.375rem #2d2d2d;
+  background-color: hsl(0deg, 0%, 18%);
+  box-shadow: 0 0 0 0.1875rem hsl(0deg, 0%, 18%), 0 0 0 0.375rem hsl(0deg, 0%, 18%);
   transition-duration: 75ms;
 }
 .action-formcolor span {
@@ -2899,17 +2899,17 @@ a:hover:before {
   background: #e8eaed;
 }
 .back ul.nav-history li.active a {
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
 }
 .back ul.nav-history li a {
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
   display: inline-block;
   opacity: 0;
   transform: translateY(-10px);
   transition: all 0.2s ease;
 }
 .back ul.nav-history li a:hover {
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
 }
 .back ul.nav-links {
   position: absolute;
@@ -2926,11 +2926,11 @@ a:hover:before {
 .back ul.nav-links li a {
   font-size: 14px;
   font-weight: 600;
-  color: #b1b1b1;
+  color: #b0b0b0;
   transition: color 0.2s ease;
 }
 .back ul.nav-links li a:focus, .back ul.nav-links li a:hover {
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
 }
 .back:hover {
   width: auto;
@@ -2951,11 +2951,11 @@ a:hover:before {
   margin-bottom: 8px;
 }
 .back:hover ul.nav-history li::after {
-  background: #1211F5;
+  background: hsl(240deg, 92%, 51%);
   transform: translateY(6px);
 }
 .back:hover ul.nav-history li.active::after {
-  background: #2d2d2d;
+  background: hsl(0deg, 0%, 18%);
 }
 .back:hover ul.nav-history li a {
   opacity: 1;
@@ -2970,7 +2970,7 @@ a:hover:before {
 
 .back:hover .btn-back div svg path,
 .back:hover .btn-back div svg polyline {
-  stroke: #fdfdfd;
+  stroke: hsl(0deg, 0%, 99%);
 }
 
 .btn-back {
@@ -2992,7 +2992,7 @@ a:hover:before {
 }
 .btn-back span {
   display: inline-block;
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
   margin-left: 10px;
   line-height: 34px;
   opacity: 0;
@@ -3001,7 +3001,7 @@ a:hover:before {
 }
 .btn-back div svg path,
 .btn-back div svg polyline {
-  stroke: #575757;
+  stroke: #585858;
   stroke-width: 2;
   stroke-linejoin: round;
   stroke-linecap: round;
@@ -3041,7 +3041,7 @@ a:hover:before {
   -webkit-margin-end: 0;
           margin-inline-end: 0;
   font-weight: 600;
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 
 nav.menu-container {
@@ -3049,7 +3049,7 @@ nav.menu-container {
   position: fixed;
   height: 100%;
   width: 100%;
-  background-color: #1211F5;
+  background-color: hsl(240deg, 92%, 51%);
 }
 nav.menu-container .center {
   position: absolute;
@@ -3063,7 +3063,7 @@ nav.menu-container .list-items li {
   font-size: 3rem;
   margin-bottom: 20px;
   font-weight: bold;
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
 }
 nav.menu-container .list-items a:hover {
   text-decoration: none;
@@ -3169,7 +3169,7 @@ textarea:-ms-input-placeholder {
   display: block;
   width: 100%;
   font-size: 24px;
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
   line-height: 1.2;
   text-align: left;
   margin-bottom: 1rem;
@@ -3187,7 +3187,7 @@ textarea:-ms-input-placeholder {
 }
 .form .form-input .label {
   font-size: 18px;
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
   line-height: 1.2;
   padding-left: 0.5rem;
 }
@@ -3197,11 +3197,11 @@ textarea:-ms-input-placeholder {
   height: 50px;
   background: transparent;
   font-size: 22px;
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
   line-height: 1.2;
   padding: 0 0.5rem;
   margin: 0.5rem 0;
-  border: 2px solid #2d2d2d;
+  border: 2px solid hsl(0deg, 0%, 18%);
   border-radius: 0.4rem;
 }
 .form .form-input .right .input {
@@ -3217,7 +3217,7 @@ textarea:-ms-input-placeholder {
 }
 .form .form-input-styled .label {
   font-size: 18px;
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
   line-height: 1.2;
   padding-left: 0.5rem;
 }
@@ -3226,13 +3226,13 @@ textarea:-ms-input-placeholder {
   width: 100%;
   height: 50px;
   font-size: 22px;
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
   background-color: whitesmoke;
   line-height: 1.2;
   padding: 0 0.5rem;
   margin: 0.5rem 0;
   border: 0;
-  border-bottom: 2px solid #2d2d2d;
+  border-bottom: 2px solid hsl(0deg, 0%, 18%);
 }
 .form .form-input-styled .right .input {
   padding-right: 3rem;
@@ -3249,12 +3249,12 @@ textarea:-ms-input-placeholder {
 }
 .form .form-input-add .form-input-icon-right {
   right: 1rem;
-  border-left: 1px solid #2d2d2d;
+  border-left: 1px solid hsl(0deg, 0%, 18%);
   padding: 0 0 0 8px;
 }
 .form .form-input-add .form-input-icon-left {
   left: 1rem;
-  border-right: 1px solid #2d2d2d;
+  border-right: 1px solid hsl(0deg, 0%, 18%);
   padding: 0 8px 0 0;
 }
 .form .form-radio input[type=radio]:after {
@@ -3269,7 +3269,7 @@ textarea:-ms-input-placeholder {
   display: inline-block;
   visibility: visible;
   transition-duration: 0.3s;
-  border: 2px solid #1211F5;
+  border: 2px solid hsl(240deg, 92%, 51%);
 }
 .form .form-radio input[type=radio]:checked:after {
   width: 15px;
@@ -3278,7 +3278,7 @@ textarea:-ms-input-placeholder {
   top: 0;
   left: -1px;
   position: relative;
-  background-color: #1211F5;
+  background-color: hsl(240deg, 92%, 51%);
   content: "";
   display: inline-block;
   visibility: visible;
@@ -3304,7 +3304,7 @@ textarea:-ms-input-placeholder {
   position: relative;
 }
 .form .form-checkbox span {
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
   padding: 0;
 }
 .form .form-checkbox label {
@@ -3318,7 +3318,7 @@ textarea:-ms-input-placeholder {
   -moz-appearance: none;
   -o-appearance: none;
   appearance: none;
-  border: 1px solid #1211F5;
+  border: 1px solid hsl(240deg, 92%, 51%);
   border-radius: 5px;
   outline: none;
   transition-duration: 0.3s;
@@ -3326,8 +3326,8 @@ textarea:-ms-input-placeholder {
   cursor: pointer;
 }
 .form .form-checkbox label input[type=checkbox]:checked {
-  border: 2px solid #1211F5;
-  background-color: #1211F5;
+  border: 2px solid hsl(240deg, 92%, 51%);
+  background-color: hsl(240deg, 92%, 51%);
 }
 .form .form-checkbox label input[type=checkbox]:checked + span::before {
   position: absolute;
@@ -3340,7 +3340,7 @@ textarea:-ms-input-placeholder {
   font-size: 18px;
 }
 .form .form-checkbox label input[type=checkbox]:not(:checked) {
-  border: 2px solid #1211F5 !important;
+  border: 2px solid hsl(240deg, 92%, 51%) !important;
 }
 .form .form-select {
   position: relative;
@@ -3349,7 +3349,7 @@ textarea:-ms-input-placeholder {
 }
 .form .form-select label {
   font-size: 18px;
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
   line-height: 1.2;
   padding-left: 0.5rem;
 }
@@ -3359,11 +3359,11 @@ textarea:-ms-input-placeholder {
   height: 50px;
   background: transparent;
   font-size: 22px;
-  color: #2d2d2d;
+  color: hsl(0deg, 0%, 18%);
   line-height: 1.2;
   padding: 0 0.5rem;
   margin: 0.5rem 0;
-  border: 2px solid #2d2d2d;
+  border: 2px solid hsl(0deg, 0%, 18%);
   border-radius: 0.4rem;
 }
 .form .form-select select option {
@@ -3389,15 +3389,15 @@ textarea:-ms-input-placeholder {
   content: attr(data-validate);
   position: absolute;
   max-width: 70%;
-  background-color: #fdfdfd;
-  border: 1px solid #b34045;
+  background-color: hsl(0deg, 0%, 99%);
+  border: 1px solid hsl(357deg, 47%, 0.48%);
   border-radius: 2px;
   padding: 4px 30px 4px 10px;
   bottom: calc((100% - 25px) / 2);
   transform: translateY(50%);
   right: 2px;
   pointer-events: none;
-  color: #b34045;
+  color: hsl(357deg, 47%, 0.48%);
   font-size: 14px;
   line-height: 1.4;
   text-align: left;
@@ -3445,7 +3445,7 @@ textarea:-ms-input-placeholder {
 
 .message {
   position: relative;
-  background-color: #1211F5;
+  background-color: hsl(240deg, 92%, 51%);
   width: calc(100% - 3em);
   max-width: 24em;
   padding: 1.5em 1em 1.5em 2em;
@@ -3458,7 +3458,7 @@ textarea:-ms-input-placeholder {
   margin-top: 2em;
 }
 .message:before {
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   width: 1.5rem;
   height: 1.5rem;
   position: absolute;
@@ -3474,7 +3474,7 @@ textarea:-ms-input-placeholder {
   top: 1rem;
   right: 1rem;
   padding: 0.4rem 0.75rem;
-  color: #fdfdfd;
+  color: hsl(0deg, 0%, 99%);
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -3534,7 +3534,7 @@ textarea:-ms-input-placeholder {
 .tabs ul li label {
   font-weight: bold;
   font-size: 18px;
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
 }
 .tabs ul {
   list-style-type: none;
@@ -3555,7 +3555,7 @@ textarea:-ms-input-placeholder {
 }
 .tabs ul li label {
   transition: all 0.3s ease-in-out;
-  color: #7a7a8c;
+  color: #79798b;
   padding: 5px auto;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -3568,7 +3568,7 @@ textarea:-ms-input-placeholder {
   display: none;
 }
 .tabs ul li label svg {
-  fill: #7a7a8c;
+  fill: #79798b;
   height: 1.2em;
   vertical-align: bottom;
   margin-right: 0.2em;
@@ -3576,10 +3576,10 @@ textarea:-ms-input-placeholder {
 }
 .tabs ul li label:hover, .tabs ul li label:focus, .tabs ul li label:active {
   outline: 0;
-  color: #a3a3af;
+  color: #a2a2ae;
 }
 .tabs ul li label:hover svg, .tabs ul li label:focus svg, .tabs ul li label:active svg {
-  fill: #a3a3af;
+  fill: #a2a2ae;
 }
 .tabs .slider {
   position: relative;
@@ -3592,7 +3592,7 @@ textarea:-ms-input-placeholder {
   max-width: 100%;
   margin: 0 auto;
   height: 4px;
-  background: #1211F5;
+  background: hsl(240deg, 92%, 51%);
   border-radius: 1px;
 }
 .tabs .content {
@@ -3613,7 +3613,7 @@ textarea:-ms-input-placeholder {
   line-height: 1.4;
 }
 .tabs .content section h2 {
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
   display: none;
 }
 .tabs .content section h2::after {
@@ -3622,16 +3622,16 @@ textarea:-ms-input-placeholder {
   display: block;
   width: 30px;
   height: 3px;
-  background: #1211F5;
+  background: hsl(240deg, 92%, 51%);
   margin-top: 5px;
   left: 1px;
 }
 .tabs input[name=tab-control]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label {
   cursor: default;
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
 }
 .tabs input[name=tab-control]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label svg {
-  fill: #1211F5;
+  fill: hsl(240deg, 92%, 51%);
 }
 @media (max-width: 600px) {
   .tabs input[name=tab-control]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label {
@@ -3646,10 +3646,10 @@ textarea:-ms-input-placeholder {
 }
 .tabs input[name=tab-control]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label {
   cursor: default;
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
 }
 .tabs input[name=tab-control]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label svg {
-  fill: #1211F5;
+  fill: hsl(240deg, 92%, 51%);
 }
 @media (max-width: 600px) {
   .tabs input[name=tab-control]:nth-of-type(2):checked ~ ul > li:nth-child(2) > label {
@@ -3664,10 +3664,10 @@ textarea:-ms-input-placeholder {
 }
 .tabs input[name=tab-control]:nth-of-type(3):checked ~ ul > li:nth-child(3) > label {
   cursor: default;
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
 }
 .tabs input[name=tab-control]:nth-of-type(3):checked ~ ul > li:nth-child(3) > label svg {
-  fill: #1211F5;
+  fill: hsl(240deg, 92%, 51%);
 }
 @media (max-width: 600px) {
   .tabs input[name=tab-control]:nth-of-type(3):checked ~ ul > li:nth-child(3) > label {
@@ -3682,10 +3682,10 @@ textarea:-ms-input-placeholder {
 }
 .tabs input[name=tab-control]:nth-of-type(4):checked ~ ul > li:nth-child(4) > label {
   cursor: default;
-  color: #1211F5;
+  color: hsl(240deg, 92%, 51%);
 }
 .tabs input[name=tab-control]:nth-of-type(4):checked ~ ul > li:nth-child(4) > label svg {
-  fill: #1211F5;
+  fill: hsl(240deg, 92%, 51%);
 }
 @media (max-width: 600px) {
   .tabs input[name=tab-control]:nth-of-type(4):checked ~ ul > li:nth-child(4) > label {
@@ -3787,7 +3787,7 @@ textarea:-ms-input-placeholder {
 }
 .et-hero-tab:hover {
   color: white;
-  background: #1211F5;
+  background: hsl(240deg, 92%, 51%);
   transition: all 0.5s ease;
 }
 
@@ -3796,7 +3796,7 @@ textarea:-ms-input-placeholder {
   bottom: 0;
   width: 0;
   height: 6px;
-  background: #fc8315;
+  background: hsl(29deg, 97%, 54%);
   transition: left 0.3s ease;
 }
 
@@ -3813,6 +3813,25 @@ textarea:-ms-input-placeholder {
     font-size: 1rem;
   }
 }
+img, video, svg {
+  max-width: 100%;
+}
+
+.img-rounded {
+  border-radius: 1.625rem;
+}
+
+.img-circle {
+  border-radius: 500px;
+}
+
+.img-polaroid {
+  padding: 4px;
+  background-color: hsl(0deg, 0%, 99%);
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 1px 3px rgba(230, 230, 230, 0.1);
+}
+
 .text-center {
   text-align: center;
 }
