@@ -3835,7 +3835,6 @@ img, video, svg {
 .img-hover {
   border: 1px solid transparent;
 }
-
 .img-hover:hover {
   outline: 2px solid hsl(240deg, 92%, 51%);
 }
@@ -3844,7 +3843,6 @@ img, video, svg {
   position: relative;
   display: block;
 }
-
 .img-blur::after {
   content: "";
   position: absolute;
@@ -3852,7 +3850,6 @@ img, video, svg {
   -webkit-backdrop-filter: blur(3px) opacity(0.5) brightness(1.3);
           backdrop-filter: blur(3px) opacity(0.5) brightness(1.3);
 }
-
 .img-blur:hover::after {
   -webkit-backdrop-filter: none;
           backdrop-filter: none;
@@ -3862,8 +3859,7 @@ img, video, svg {
   filter: sepia(100%);
   transition: 0.3s ease-in-out;
 }
-
-.img-sepia:hover img {
+.img-sepia img:hover img {
   filter: sepia(0);
 }
 
@@ -3871,8 +3867,7 @@ img, video, svg {
   filter: grayscale(100%);
   transition: 0.3s ease-in-out;
 }
-
-.img-grayscale:hover img {
+.img-grayscale img:hover img {
   filter: grayscale(0);
 }
 
@@ -3886,6 +3881,20 @@ img, video, svg {
 
 .img-shadow-lg {
   box-shadow: 8px 8px 10px 0 rgba(10, 10, 10, 0.5);
+}
+
+.img-zoom {
+  display: block;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+.img-zoom img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s;
+}
+.img-zoom img:hover img {
+  transform: scale(1.2);
 }
 
 .text-center {
