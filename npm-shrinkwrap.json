@@ -1,12 +1,12 @@
 {
   "name": "pimentcss",
-  "version": "0.3.31",
+  "version": "0.3.32",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "pimentcss",
-      "version": "0.3.31",
+      "version": "0.3.32",
       "license": "MIT",
       "dependencies": {
         "gulp-sourcemaps": "^3.0.0"
