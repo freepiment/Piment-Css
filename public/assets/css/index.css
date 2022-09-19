@@ -3859,7 +3859,7 @@ img, video, svg {
   filter: sepia(100%);
   transition: 0.3s ease-in-out;
 }
-.img-sepia img:hover img {
+.img-sepia:hover img {
   filter: sepia(0);
 }
 
@@ -3867,7 +3867,7 @@ img, video, svg {
   filter: grayscale(100%);
   transition: 0.3s ease-in-out;
 }
-.img-grayscale img:hover img {
+.img-grayscale:hover img {
   filter: grayscale(0);
 }
 
