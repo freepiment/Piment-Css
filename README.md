@@ -4,6 +4,8 @@
 
 **Piment CSS** is a css micro-framework made by Webmonster Antilles.
 
+[![npm version](https://badge.fury.io/js/survey-monkey-streams.svg)](//npmjs.com/package/pimentcss)
+
 ## Change Log
 All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
  
@@ -21,6 +23,13 @@ Hey all the team thanks for your support. Here is a new version!
 - MINOR Add .img-polaroid.
 - MINOR Add .img-hover.
 - MINOR Add .img-blur.
+- MINOR Add .img-sepia.
+- MINOR Add .img-grayscale.
+- MINOR Add .img-zoom.
+- MINOR Add .card.
+- MINOR Add .card-img.
+- MINOR Add .card-title.
+- MINOR Add .card-body.
 
 
 ## [0.3.30] - 2022-09-18
