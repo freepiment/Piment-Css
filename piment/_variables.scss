@@ -1,5 +1,7 @@
 @use 'sass:math';
-
+:root {
+  --curve: 20;
+}
 // THEME COLORS
 $info: 	  hsl(41, 99%, 71%);
 $error:   hsl(357, 47%, 48%);

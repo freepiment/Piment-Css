@@ -1,10 +1,21 @@
+@use 'sass:math';
+
 img, video, svg {
   max-width: 100%;
 }
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+
 .img-rounded {
-  -webkit-border-radius: $base-border-radius;
-  -moz-border-radius: $base-border-radius;
-  border-radius: $base-border-radius;
+  -webkit-border-radius: calc(var(--curve) * 1px);
+  -moz-border-radius:calc(var(--curve) * 1px);
+  border-radius: calc(var(--curve) * 1px);
 }
 .img-circle {
   -webkit-border-radius: 500px;
@@ -66,19 +77,10 @@ img, video, svg {
     filter: grayscale(0);
   }
 }
-.img-shadow-xs {
-  box-shadow:4px 4px 10px 0 rgba(10,10,10,0.5);
-}
-.img-shadow-md {
-  box-shadow:6px 6px 10px 0 rgba(10,10,10,0.5);
-}
-.img-shadow-lg {
-  box-shadow:8px 8px 10px 0 rgba(10,10,10,0.5);
-}
 .img-zoom {
   display:block;
   overflow:hidden;
-  border:1px solid map-get($colors, "dark");
+  border:1px solid map-get($colors, "graylight");
 
   img {
     width:100%;
