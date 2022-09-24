@@ -3536,81 +3536,197 @@ textarea:-ms-input-placeholder {
 
 .message {
   position: relative;
-  background-color: hsl(240deg, 92%, 51%);
   width: calc(100% - 3em);
-  max-width: 24em;
+  max-width: 40em;
   padding: 1.5em 1em 1.5em 2em;
-  border-left-width: 6px;
+  border: 1px solid #2e2e2e;
+  border-left-width: 7px;
   border-left-style: solid;
   border-radius: 3px;
   line-height: 1.5;
-}
-.message + .message {
+  color: #2e2e2e;
+  opacity: 1;
   margin-top: 2em;
 }
 .message:before {
-  color: hsl(0deg, 0%, 99%);
-  width: 1.5rem;
-  height: 1.5rem;
+  color: white;
+  width: 2rem;
+  height: 2rem;
   position: absolute;
-  top: 1em;
+  top: 50%;
   left: -3px;
   border-radius: 50%;
-  transform: translateX(-50%);
-  line-height: 1.5;
+  transform: translate(-50%, -50%);
+  line-height: 2rem;
   text-align: center;
+  font-size: 1.5rem;
 }
 .message__close {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
-  padding: 0.4rem 0.75rem;
-  color: hsl(0deg, 0%, 99%);
+  top: 10px;
+  right: 10px;
+  padding: 1rem;
+  color: #2e2e2e;
   background-color: transparent;
   border: 0;
   cursor: pointer;
+  -webkit-animation-name: hidemessage;
+          animation-name: hidemessage;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 .message__close span {
   font-size: 1rem;
 }
 .message p {
+  color: #2e2e2e;
   margin: 0 0 1em;
+  transition: all 3s ease-out;
 }
 .message p:last-child {
   margin-bottom: 0;
 }
 
+.message--info {
+  background: linear-gradient(to bottom, hsla(220deg, 92%, 51%, 0.3), hsla(220deg, 92%, 51%, 0.1));
+  border-color: hsl(220deg, 92%, 51%);
+}
+.message--info:before {
+  background-color: hsl(220deg, 92%, 51%);
+  content: "\f1f8";
+  font-family: "Material-Design-Iconic-Font", sans-serif;
+}
+
+.message--info .message__close {
+  color: hsl(220deg, 92%, 51%) !important;
+  font-weight: 700;
+}
+
 .message--error {
-  border-left-color: firebrick;
+  background: linear-gradient(to bottom, hsla(357deg, 47%, 48%, 0.3), hsla(357deg, 47%, 48%, 0.1));
+  border-color: hsl(357deg, 47%, 48%);
 }
 .message--error:before {
-  background-color: firebrick;
+  background-color: hsl(357deg, 47%, 48%);
   content: "\f1f1";
   font-family: "Material-Design-Iconic-Font", sans-serif;
 }
 
+.message--error .message__close {
+  color: hsl(357deg, 47%, 48%) !important;
+  font-weight: 700;
+}
+
 .message--warning {
-  border-left-color: darkorange;
+  background: linear-gradient(to bottom, hsla(29deg, 97%, 54%, 0.3), hsla(29deg, 97%, 54%, 0.1));
+  border-color: hsl(29deg, 97%, 54%);
 }
 .message--warning:before {
-  background-color: darkorange;
-  content: "\f1f4";
+  background-color: hsl(29deg, 97%, 54%);
+  content: "\f1fe";
   font-family: "Material-Design-Iconic-Font", sans-serif;
+}
+
+.message--warning .message__close {
+  color: hsl(29deg, 97%, 54%) !important;
+  font-weight: 700;
 }
 
 .message--success {
-  border-left-color: darkolivegreen;
+  background: linear-gradient(to bottom, hsla(141deg, 50%, 35%, 0.3), hsla(141deg, 50%, 35%, 0.1));
+  border-color: hsl(141deg, 50%, 35%);
 }
 .message--success:before {
-  background-color: darkolivegreen;
-  content: "\f26b";
+  background-color: hsl(141deg, 50%, 35%);
+  content: "\f269";
   font-family: "Material-Design-Iconic-Font", sans-serif;
 }
 
-.closed {
+.message--success .message__close {
+  color: hsl(141deg, 50%, 35%) !important;
+  font-weight: 700;
+}
+
+input[type=checkbox].hide-input:checked + .message {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-direction: ease-out;
+          animation-direction: ease-out;
+  -webkit-animation-play-state: start;
+          animation-play-state: start;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-name: hidemessage;
+          animation-name: hidemessage;
+  overflow: auto;
+}
+
+input.hide-input {
   display: none;
 }
 
+.message label.toggle {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.autohide {
+  -webkit-animation-name: hidemessage;
+          animation-name: hidemessage;
+  -webkit-animation-direction: ease-out;
+          animation-direction: ease-out;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-play-state: start;
+          animation-play-state: start;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes hidemessage {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: -555%;
+  }
+  100% {
+    padding: 0;
+    opacity: 0;
+    border: 0;
+    margin: 0;
+    margin-left: -999%;
+    height: 0;
+    /**line-height: 0;
+    overflow: hidden;**/
+  }
+}
+
+@keyframes hidemessage {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: -555%;
+  }
+  100% {
+    padding: 0;
+    opacity: 0;
+    border: 0;
+    margin: 0;
+    margin-left: -999%;
+    height: 0;
+    /**line-height: 0;
+    overflow: hidden;**/
+  }
+}
 /* breakpoints */
 .tabs {
   position: relative;

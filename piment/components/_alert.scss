@@ -1,40 +1,42 @@
 .message {
   position: relative;
-  background-color:  map-get($colors, "blue");
   width: calc(100% - 3em);
-  max-width: 24em;
+  max-width: 40em;
   padding: 1.5em 1em 1.5em 2em;
-  border-left-width: 6px;
+  border: 1px solid #2e2e2e;
+  border-left-width: 7px;
   border-left-style: solid;
   border-radius: 3px;
   line-height: 1.5;
-
-  & + & {
-    margin-top: 2em;
-  }
+  color: #2e2e2e;
+  opacity: 1;
+  margin-top: 2em;
 
   &:before {
-    color: map-get($colors, "white");
-    width:  1.5rem;
-    height: 1.5rem;
+    color: white;
+    width: 2rem;
+    height: 2rem;
     position: absolute;
-    top: 1em;
+    top: 50%;
     left: -3px;
     border-radius: 50%;
-    transform: translateX(-50%);
-    line-height: 1.5;
+    transform: translate(-50%, -50%);
+    line-height: 2rem;
     text-align: center;
+    font-size: 1.5rem;
   }
 
   &__close {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-    padding: .4rem .75rem;
-    color:  map-get($colors, "white");
+    top: 10px;
+    right: 10px;
+    padding: 1rem;
+    color: #2e2e2e;
     background-color: transparent;
     border: 0;
     cursor: pointer;
+    animation-name: hidemessage;
+    animation-duration: 1s;
 
     span {
       font-size: 1rem;
@@ -42,8 +44,9 @@
   }
 
   p {
-    color: map-get($colors, white);
+    color: #2e2e2e;
     margin: 0 0 1em;
+    transition: all 3s ease-out;
 
     &:last-child {
       margin-bottom: 0;
@@ -51,36 +54,120 @@
   }
 }
 
-.message--error {
-  border-left-color: firebrick;
+.message--info {
+  background: linear-gradient(
+                  to bottom,
+                  hsla(220, 92%, 51%, 0.3),
+                  hsla(220, 92%, 51%, 0.1)
+  );
+  border-color: hsl(220, 92%, 51%);
 
   &:before {
-    background-color: firebrick;
-    content: "\f1f1";
-    font-family: 'Material-Design-Iconic-Font', sans-serif;
+    background-color: hsl(220, 92%, 51%);
+    content: "\f1f8";
+    font-family: "Material-Design-Iconic-Font", sans-serif;
   }
 }
+.message--info .message__close {
+  color: hsl(220, 92%, 51%) !important;
+  font-weight: 700;
+}
 
-.message--warning {
-  border-left-color: darkorange;
+.message--error {
+  background: linear-gradient(
+                  to bottom,
+                  hsla(357, 47%, 48%, 0.3),
+                  hsla(357, 47%, 48%, 0.1)
+  );
+  border-color: hsl(357, 47%, 48%);
 
   &:before {
-    background-color: darkorange;
-    content: "\f1f4";
-    font-family: 'Material-Design-Iconic-Font', sans-serif;
+    background-color: hsl(357, 47%, 48%);
+    content: "\f1f1";
+    font-family: "Material-Design-Iconic-Font", sans-serif;
   }
+}
+.message--error .message__close {
+  color: hsl(357, 47%, 48%) !important;
+  font-weight: 700;
+}
+.message--warning {
+  background: linear-gradient(
+                  to bottom,
+                  hsla(29, 97%, 54%, 0.3),
+                  hsla(29, 97%, 54%, 0.1)
+  );
+  border-color: hsl(29, 97%, 54%);
+
+  &:before {
+    background-color: hsl(29, 97%, 54%);
+    content: "\f1fe";
+    font-family: "Material-Design-Iconic-Font", sans-serif;
+  }
+}
+.message--warning .message__close {
+  color: hsl(29, 97%, 54%) !important;
+  font-weight: 700;
 }
 
 .message--success {
-  border-left-color: darkolivegreen;
+  background: linear-gradient(
+                  to bottom,
+                  hsla(141, 50%, 35%, 0.3),
+                  hsla(141, 50%, 35%, 0.1)
+  );
+  border-color: hsl(141, 50%, 35%);
 
   &:before {
-    background-color: darkolivegreen;
-    content: "\f26b";
-    font-family: 'Material-Design-Iconic-Font', sans-serif;
+    background-color: hsl(141, 50%, 35%);
+    content: "\f269";
+    font-family: "Material-Design-Iconic-Font", sans-serif;
   }
 }
+.message--success .message__close {
+  color: hsl(141, 50%, 35%) !important;
+  font-weight: 700;
+}
 
-.closed {
+input[type="checkbox"].hide-input:checked + .message {
+  animation-duration: 1s;
+  animation-direction: ease-out;
+  animation-play-state: start;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-name: hidemessage;
+  overflow: auto;
+}
+input.hide-input {
   display: none;
+}
+.message label.toggle {
+  user-select: none;
+}
+.autohide {
+  animation-name: hidemessage;
+  animation-direction: ease-out;
+  animation-delay: 5s;
+  animation-duration: 1s;
+  animation-play-state: start;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes hidemessage {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: -555%;
+  }
+  100% {
+    padding: 0;
+    opacity: 0;
+    border: 0;
+    margin: 0;
+    margin-left: -999%;
+    height: 0;
+    /**line-height: 0;
+    overflow: hidden;**/
+  }
 }
