@@ -1,8 +1,9 @@
 {
   "name": "pimentcss",
-  "version": "0.3.33",
+  "version": "0.3.34",
   "description": "CSS Framework",
-  "main": "index.js",
+  "repository": "webmonstera/piment-css",
+  "homepage": "https://pimentcss.webmonster.tech/",
   "scripts": {
     "prepublish": "npm-auto-version",
     "postpublish": "git push origin --tags"
@@ -31,5 +32,5 @@
     "gulp-sourcemaps": "^3.0.0",
     "sass": "^1.54.8"
   },
-  "unpkg": "https://unpkg.com/pimentcss@0.3.33/public/assets/css/index.min.css"
+  "unpkg": "https://unpkg.com/pimentcss@0.3.34/public/assets/css/index.min.css"
 }
