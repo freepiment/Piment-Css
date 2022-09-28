@@ -10,6 +10,9 @@
 ## Change Log
 All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
 
+## [0.3.35] - 2022-09-23
+- MINOR Update package.json with unpkg.
+
 ## [0.3.33] - 2022-09-23
 - MINOR Update alert info.
 - MINOR Update alert success.
