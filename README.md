@@ -4,8 +4,8 @@
 
 **Piment CSS** is a css micro-framework made by Webmonster Antilles.
 
-[![npm](https://img.shields.io/npm/v/pimentcss.svg?maxAge=2592000)](https://www.npmjs.com/package/pimentcss)
-[![downloads](https://img.shields.io/npm/dt/pimentcss.svg?maxAge=2592000)](https://www.npmjs.com/package/pimentcss)
+[![npm](https://img.shields.io/npm/v/pimentcss.svg)](https://www.npmjs.com/package/pimentcss)
+[![downloads](https://img.shields.io/npm/dt/pimentcss.svg)](https://www.npmjs.com/package/pimentcss)
 
 ## Change Log
 All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
