@@ -10,7 +10,14 @@
 ## Change Log
 All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
 
-## [0.3.35] - 2022-09-23
+## [0.3.36] - 2022-09-28
+- MINOR Update accordion info + no border.
+- MINOR Update accordion info.
+- MINOR Update accordion success.
+- MINOR Update accordion warning.
+- MINOR Update accordion error.
+
+## [0.3.35] - 2022-09-27
 - MINOR Update package.json with unpkg.
 
 ## [0.3.33] - 2022-09-23

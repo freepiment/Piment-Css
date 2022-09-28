@@ -1,0 +1,80 @@
+details {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid map-get($colors, "graylight");
+  transition: all 1s;
+
+  &.no-border {
+    border-bottom: none;
+  }
+
+  &:not([open]) summary ~ * {
+    animation-name: sweep-out;
+    animation-duration: 0.5s ease-in-out;
+  }
+  &[open] summary ~ * {
+    animation: sweep 0.5s ease-in-out;
+  }
+
+  &[open] summary::marker {
+    content: "\025BE";
+    font-size: 1.2rem;
+  }
+
+  summary {
+    position: relative;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    outline: none;
+
+    &::marker {
+      content: "\025B8";
+      font-size: 1.2rem;
+      transition: all 1s linear;
+    }
+
+    &.summary--info {
+      color: hsl(220, 92%, 51%);
+    }
+
+    &.summary--error {
+      color: hsl(357, 47%, 48%);
+    }
+
+    &.summary--warning {
+      color: hsl(29, 97%, 54%);
+    }
+
+    &.summary--success {
+      color: hsl(141, 50%, 35%);
+    }
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 1rem;
+  }
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes sweep-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+}

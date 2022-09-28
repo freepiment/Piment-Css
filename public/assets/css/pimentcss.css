@@ -757,6 +757,100 @@ a:hover:before {
   background-color: hsl(0deg, 0%, 18%);
 }
 
+details {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid whitesmoke;
+  transition: all 1s;
+}
+details.no-border {
+  border-bottom: none;
+}
+details:not([open]) summary ~ * {
+  -webkit-animation-name: sweep-out;
+          animation-name: sweep-out;
+  -webkit-animation-duration: 0.5s ease-in-out;
+          animation-duration: 0.5s ease-in-out;
+}
+details[open] summary ~ * {
+  -webkit-animation: sweep 0.5s ease-in-out;
+          animation: sweep 0.5s ease-in-out;
+}
+details[open] summary::marker {
+  content: "▾";
+  font-size: 1.2rem;
+}
+details summary {
+  position: relative;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 600;
+  outline: none;
+}
+details summary::marker {
+  content: "▸";
+  font-size: 1.2rem;
+  transition: all 1s linear;
+}
+details summary.summary--info {
+  color: hsl(220deg, 92%, 51%);
+}
+details summary.summary--error {
+  color: hsl(357deg, 47%, 48%);
+}
+details summary.summary--warning {
+  color: hsl(29deg, 97%, 54%);
+}
+details summary.summary--success {
+  color: hsl(141deg, 50%, 35%);
+}
+details p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 1rem;
+}
+
+@-webkit-keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes sweep-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+}
+@keyframes sweep-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+}
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -770,6 +864,8 @@ a:hover:before {
   position: relative;
   display: block;
   height: 100%;
+  padding: 1rem;
+  border: 1px solid whitesmoke;
   border-radius: calc(var(--curve) * 1px);
   overflow: hidden;
   text-decoration: none;

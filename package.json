@@ -1,9 +1,13 @@
 {
   "name": "pimentcss",
-  "version": "0.3.35",
+  "version": "0.3.36",
   "description": "CSS Framework",
-  "repository": "webmonstera/piment-css",
   "homepage": "https://pimentcss.webmonster.tech/",
+  "main": "public/assets/css/piment.min.css",
+  "repository": "webmonstera/piment-css",
+  "bugs": {
+    "url": "https://github.com/WebmonsterA/Piment-Css/issues"
+  },
   "scripts": {
     "prepublish": "npm-auto-version",
     "postpublish": "git push origin --tags"
