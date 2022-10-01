@@ -1,6 +1,6 @@
 {
   "name": "pimentcss",
-  "version": "0.3.36",
+  "version": "0.3.37",
   "description": "CSS Framework",
   "homepage": "https://pimentcss.webmonster.tech/",
   "main": "public/assets/css/piment.min.css",

@@ -10,7 +10,29 @@
 ## Change Log
 All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
 
+## [0.3.37] - 2022-10-01
+
+### Fixed
+- MAJOR Update index.[min].css > piment.[min].css.
+- MINOR Update accordion marker problem.
+
+### Added
+- MINOR Add .editorconfig.
+- MINOR Add .gitignore.
+- MINOR Add .htaccess (with security rules).
+- MINOR Add 404.html (custom error).
+- MINOR Add 500.html (custom error).
+- MINOR Add crossdomain.xml.
+- MINOR Add humans.txt.
+- MINOR Add robots.txt.
+- MINOR Add site.webmanifest.
+- MINOR Add starter.html.
+- MINOR Add browser compatibility to public/index.html.
+- MINOR Add Google Analytics<sup>&reg;</sup> tag to public/index.html.
+
 ## [0.3.36] - 2022-09-28
+
+### Added
 - MINOR Update accordion info + no border.
 - MINOR Update accordion info.
 - MINOR Update accordion success.
@@ -18,15 +40,21 @@ All changes to this project are documented in this file. This project is [Semant
 - MINOR Update accordion error.
 
 ## [0.3.35] - 2022-09-27
+
+### Changed
 - MINOR Update package.json with unpkg.
 
 ## [0.3.33] - 2022-09-23
+
+### Changed
 - MINOR Update alert info.
 - MINOR Update alert success.
 - MINOR Update alert warning.
 - MINOR Update alert error.
 
 ## [0.3.32] - 2022-09-19
+
+### Changed
 - MINOR Update package.json with new tags.
 
 ## [0.3.31] - 2022-09-19

@@ -16,7 +16,7 @@ details {
     animation: sweep 0.5s ease-in-out;
   }
 
-  &[open] summary::marker {
+  &[open] summary:after {
     content: "\025BE";
     font-size: 1.2rem;
   }
@@ -28,9 +28,15 @@ details {
     font-weight: 600;
     outline: none;
 
-    &::marker {
+    &::-webkit-details-marker {
+      display: none
+    }
+
+    &:after {
       content: "\025B8";
       font-size: 1.2rem;
+      float: right;
+      padding: 0 2rem 0 0;
       transition: all 1s linear;
     }
 
@@ -54,7 +60,7 @@ details {
   p {
     font-size: 1.5rem;
     line-height: 2rem;
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 0;
   }
 }
 

@@ -776,7 +776,7 @@ details[open] summary ~ * {
   -webkit-animation: sweep 0.5s ease-in-out;
           animation: sweep 0.5s ease-in-out;
 }
-details[open] summary::marker {
+details[open] summary:after {
   content: "▾";
   font-size: 1.2rem;
 }
@@ -787,9 +787,14 @@ details summary {
   font-weight: 600;
   outline: none;
 }
-details summary::marker {
+details summary::-webkit-details-marker {
+  display: none;
+}
+details summary:after {
   content: "▸";
   font-size: 1.2rem;
+  float: right;
+  padding: 0 2rem 0 0;
   transition: all 1s linear;
 }
 details summary.summary--info {
@@ -807,7 +812,7 @@ details summary.summary--success {
 details p {
   font-size: 1.5rem;
   line-height: 2rem;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 0;
 }
 
 @-webkit-keyframes sweep {
