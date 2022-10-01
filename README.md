@@ -28,7 +28,7 @@ All changes to this project are documented in this file. This project is [Semant
 - MINOR Add site.webmanifest.
 - MINOR Add starter.html.
 - MINOR Add browser compatibility to public/index.html.
-- MINOR Add Google Analytics<sup>&copy;</sup> tag to public/index.html.
+- MINOR Add Google Analytics<sup>&reg;</sup> tag to public/index.html.
 
 ## [0.3.36] - 2022-09-28
 
