@@ -36,5 +36,5 @@
     "gulp-sourcemaps": "^3.0.0",
     "sass": "^1.54.8"
   },
-  "unpkg": "/public/assets/css/pîmentcss.min.css"
+  "unpkg": "/public/assets/css/pimentcss.min.css"
 }
