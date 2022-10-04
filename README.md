@@ -10,25 +10,20 @@
 ## Change Log
 All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
 
-## [0.3.37] - 2022-10-01
-
-### Fixed
-- MAJOR Update index.[min].css > piment.[min].css.
-- MINOR Update accordion marker problem.
+## [0.3.38] - 2022-10-03
 
 ### Added
-- MINOR Add .editorconfig.
-- MINOR Add .gitignore.
-- MINOR Add .htaccess (with security rules).
-- MINOR Add 404.html (custom error).
-- MINOR Add 500.html (custom error).
-- MINOR Add crossdomain.xml.
-- MINOR Add humans.txt.
-- MINOR Add robots.txt.
-- MINOR Add site.webmanifest.
-- MINOR Add starter.html.
-- MINOR Add browser compatibility to public/index.html.
-- MINOR Add Google Analytics<sup>&reg;</sup> tag to public/index.html.
+- MINOR Add font-weight class.
+- MINOR Add text-transform class.
+- MINOR Add text-align class.
+- MINOR Add underline class.
+- MINOR Add overline class.
+- MINOR Add line-through class.
+- MINOR Add no-underline class.
+- MINOR Add text-underline-offset class.
+- MINOR Add overflow-wrap class.
+- MINOR Add letter-spacing class.
+- MINOR Add font-variant-numeric class.
 
 [Display changelog](CHANGELOG.md)
 

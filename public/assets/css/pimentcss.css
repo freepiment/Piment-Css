@@ -581,6 +581,175 @@ a:hover:before {
   width: 100%;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-normal {
+  text-transform: none;
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.overline {
+  -webkit-text-decoration-line: overline;
+          text-decoration-line: overline;
+}
+
+.line-through {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.no-underline {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.underline-offset-auto {
+  text-underline-offset: auto;
+}
+
+.underline-offset-1 {
+  text-underline-offset: 2px;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 4px;
+}
+
+.underline-offset-3 {
+  text-underline-offset: 6px;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 8px;
+}
+
+.break-normal {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
+.letter-spacing-xsmall {
+  letter-spacing: -0.05em;
+}
+
+.letter-spacing-small {
+  letter-spacing: -0.025em;
+}
+
+.letter-spacing-normal {
+  letter-spacing: 0;
+}
+
+.letter-spacing-medium {
+  letter-spacing: 0.025em;
+}
+
+.letter-spacing-large {
+  letter-spacing: 0.05em;
+}
+
+.letter-spacing-xlarge {
+  letter-spacing: 0.1em;
+}
+
+.normal-nums {
+  font-variant-numeric: normal;
+}
+
+.ordinal {
+  font-variant-numeric: ordinal;
+}
+
+.slashed-zero {
+  font-variant-numeric: slashed-zero;
+}
+
+.lining-nums {
+  font-variant-numeric: lining-nums;
+}
+
+.oldstyle-nums {
+  font-variant-numeric: oldstyle-nums;
+}
+
+.proportional-nums {
+  font-variant-numeric: proportional-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.diagonal-fractions {
+  font-variant-numeric: diagonal-fractions;
+}
+
+.stacked-fractions {
+  font-variant-numeric: stacked-fractions;
+}
+
 .text-error {
   color: hsl(357deg, 47%, 48%);
 }
