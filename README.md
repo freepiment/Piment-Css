@@ -7,7 +7,7 @@
 [![npm](https://img.shields.io/npm/v/pimentcss.svg)](https://www.npmjs.com/package/pimentcss)
 [![downloads](https://img.shields.io/npm/dt/pimentcss.svg)](https://www.npmjs.com/package/pimentcss)
 
-<a href="https://www.producthunt.com/posts/piment-css?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-piment&#0045;css" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=362712&theme=neutral" alt="Piment&#0032;CSS - Piment&#0032;CSS&#0032;is&#0032;a&#0032;css&#0032;micro&#0045;framework | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<a href="https://www.producthunt.com/posts/piment-css?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-piment&#0045;css" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=362712&theme=light" alt="Piment&#0032;CSS - Piment&#0032;CSS&#0032;is&#0032;a&#0032;css&#0032;micro&#0045;framework | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 ## Change Log
 All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
