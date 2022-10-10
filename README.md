@@ -71,4 +71,4 @@ gulp dev
 Visit the community [Webmonster](https://discord.gg/maynphPgp2) on Discord.
 
 ## Acknowledgements
-Thanks to : WestInDev, Ronny, Christelle, Eric, R3tr0_, Symphobie.js, SignedA, Kenjisupremacy, Chriss, SoniaV, webplusm, Jeed0, Kisaman_Steeven, FabienF, FVR71F, Nautilias and all Webmonster Community.
+Thanks to : WestInDev, Ronny, Yohan, Christelle, Chrid, SuzuKube, Lerikal, baba216, Eric, R3tr0_, Symphobie.js, SignedA, Kenjisupremacy, Chriss, SoniaV, webplusm, Jeed0, Kisaman_Steeven, FabienF, FVR71F, Nautilias and all Webmonster Community.
