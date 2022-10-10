@@ -103,6 +103,16 @@ sup {
   font-size: xx-large;
 }
 
+::-moz-selection {
+  color: white;
+  background: hsl(240deg, 92%, 51%);
+}
+
+::selection {
+  color: white;
+  background: hsl(240deg, 92%, 51%);
+}
+
 @media (min-width: 0) {
   .responsive-test {
     color: red;
@@ -3565,11 +3575,85 @@ textarea:-ms-input-placeholder {
   border: 2px solid hsl(0deg, 0%, 18%);
   border-radius: 0.4rem;
 }
+.form .form-input input[type=date].input,
+.form .form-input input[type=time].input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  font-size: 22px;
+  color: hsl(0deg, 0%, 18%);
+  line-height: 1.2;
+  padding: 0 0.5rem;
+  margin: 0.5rem 0;
+  border: 2px solid hsl(0deg, 0%, 18%);
+  border-radius: 0.4rem;
+  font-family: sans-serif;
+}
+.form .form-input input[type=date].input::-webkit-datetime-edit,
+.form .form-input input[type=time].input::-webkit-datetime-edit {
+  padding: 1em 0;
+}
+.form .form-input input[type=date].input::-webkit-datetime-edit-text,
+.form .form-input input[type=time].input::-webkit-datetime-edit-text {
+  color: hsl(0deg, 0%, 18%);
+  padding: 0 0.3em;
+}
+.form .form-input input[type=date].input::-webkit-datetime-edit-month-field,
+.form .form-input input[type=time].input::-webkit-datetime-edit-month-field {
+  color: hsl(0deg, 0%, 18%);
+}
+.form .form-input input[type=date].input::-webkit-datetime-edit-day-field,
+.form .form-input input[type=time].input::-webkit-datetime-edit-day-field {
+  color: hsl(0deg, 0%, 18%);
+}
+.form .form-input input[type=date].input::-webkit-datetime-edit-year-field,
+.form .form-input input[type=time].input::-webkit-datetime-edit-year-field {
+  color: hsl(0deg, 0%, 18%);
+}
+.form .form-input input[type=date].input::-webkit-inner-spin-button,
+.form .form-input input[type=time].input::-webkit-inner-spin-button {
+  display: none;
+}
+.form .form-input input[type=range].input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  font-size: 22px;
+  color: hsl(0deg, 0%, 18%);
+  line-height: 1.2;
+  padding: 0 0.5rem;
+  margin: 0.5rem 0;
+  border: 2px solid hsl(0deg, 0%, 18%);
+  border-radius: 0.4rem;
+  font-family: sans-serif;
+  -webkit-appearance: none;
+  background: hsl(240deg, 92%, 51%);
+  outline: none;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+.form .form-input input[type=range].input:hover {
+  opacity: 0.7;
+}
+.form .form-input input[type=range].input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: hsl(41deg, 99%, 71%);
+  margin-top: 0;
+}
 .form .form-input .right .input {
   padding-right: 3rem;
 }
 .form .form-input .left .input {
   padding-left: 3rem;
+}
+.form .form-input #rangevalue:before {
+  content: "$";
 }
 .form .form-input-styled {
   position: relative;

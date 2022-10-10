@@ -87,3 +87,7 @@ sup {
   vertical-align: super;
   font-size: xx-large;
 }
+::selection {
+  color: white;
+  background: map-get($colors, "blue");
+}

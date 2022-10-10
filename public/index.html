@@ -252,7 +252,83 @@
                             </div>
                         </div>
                     </div>
+                    <h4 class="form-title">Input Datalist + Input Range</h4>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="form-input">
+                                <label for="list--input">Search</label>
+                                <input type="text" id="list--input" name="list--input" list="list--data" class="input">
+                                <datalist id="list--data">
+                                    <option value="Choose 01">
+                                    <option value="Choose 02">
+                                    <option value="Choose 03">
+                                </datalist>
+                            </div>
 
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="form-input">
+                                        <label for="list--days">Choose a date</label>
+                                        <input type="date" id="list--days" name="list--days" list="days" class="input">
+                                        <datalist id="days">
+                                            <option label="Chris' Birthday">1980-08-26</option>
+                                            <option label="Apollo 11 Moon Landing">1969-07-20</option>
+                                            <option label="DDay">1944-06-06</option>
+                                        </datalist>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="form-input">
+                                        <label for="list--hours">Hours</label>
+                                        <input type="time" id="list--hours" name="list--hours" list="popularHours" class="input" />
+                                        <datalist id="popularHours">
+                                            <option value="08:00"></option>
+                                            <option value="09:00"></option>
+                                            <option value="10:00"></option>
+                                            <option value="11:00"></option>
+                                            <option value="12:00"></option>
+                                            <option value="13:00"></option>
+                                            <option value="14:00"></option>
+                                            <option value="15:00"></option>
+                                            <option value="16:00"></option>
+                                        </datalist>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="form-input">
+                                        <label id="pickcolors">Pick a color</label>
+                                        <input type="color" id="pickcolors" name="pickcolors" list="redColors" class="input" />
+                                        <datalist id="redColors">
+                                            <option value="#EA473E"></option>
+                                            <option value="#0F0FF5"></option>
+                                            <option value="#1EF671"></option>
+                                            <option value="#FB8618"></option>
+                                        </datalist>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="form-input">
+                                        <label for="tick">Tip amount</label>
+                                        <input type="range" min="0" max="50" step="10" value="0" id="tick" name="tick" list="tickmarks" oninput="rangevalue.value=value" class="input" />
+                                        <datalist id="tickmarks">
+                                            <option value="0" label="0"></option>
+                                            <option value="10"></option>
+                                            <option value="20"></option>
+                                            <option value="25" label="25"></option>
+                                            <option value="30"></option>
+                                            <option value="40"></option>
+                                            <option value="50" label="50"></option>
+                                        </datalist>
+                                        <output id="rangevalue">0</output>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </form>
             </section>
             <section class="col-xs-12">
@@ -432,12 +508,15 @@
                     </div>
                 </div>
             </section>
+
+
+
         </div>
     </main>
     <footer class="container mb-4 mt-4">
         <div class="row">
             <section class="col-sm-12 text-center">
-                <p class="font-xs">Version <span class="text-success">0.3.38</span><br>
+                <p class="font-xs">Version <span class="text-success">0.3.39</span><br>
                 Tous droits réservés &copy; 2022 Piment Css by <a class="font-xs text-red text-hover-blue" href="https://github.com/WebmonsterA" rel="noopener nofollow">Webmonster Community</a></p>
             </section>
         </div>

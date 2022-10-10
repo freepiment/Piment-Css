@@ -12,20 +12,14 @@
 ## Change Log
 All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
 
-## [0.3.38] - 2022-10-03
+## [0.3.39] - 2022-10-09
 
 ### Added
-- MINOR Add font-weight class.
-- MINOR Add text-transform class.
-- MINOR Add text-align class.
-- MINOR Add underline class.
-- MINOR Add overline class.
-- MINOR Add line-through class.
-- MINOR Add no-underline class.
-- MINOR Add text-underline-offset class.
-- MINOR Add overflow-wrap class.
-- MINOR Add letter-spacing class.
-- MINOR Add font-variant-numeric class.
+- MINOR Add :selector class.
+- MINOR Add input[type="date"] class.
+- MINOR Add input[type="time"] class.
+- MINOR Add input[type="range"] class.
+- MINOR Add #rangevalue class.
 
 [Display changelog](CHANGELOG.md)
 

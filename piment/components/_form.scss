@@ -78,6 +78,75 @@ textarea:-ms-input-placeholder {color: #cccccc;}
       border: 2px solid  map-get($colors, "formcolor");
       border-radius: .4rem;
     }
+    input[type="date"].input,
+    input[type="time"].input {
+      display: block;
+      width: 100%;
+      height: 50px;
+      background: transparent;
+      font-size: 22px;
+      color: map-get($colors, "formcolor");
+      line-height: 1.2;
+      padding: 0 .5rem;
+      margin: .5rem 0;
+      border: 2px solid  map-get($colors, "formcolor");
+      border-radius: .4rem;
+      font-family: sans-serif;
+
+      &::-webkit-datetime-edit {
+        padding: 1em 0;
+      }
+      &::-webkit-datetime-edit-text {
+        color: map-get($colors, "formcolor");
+        padding: 0 0.3em;
+      }
+      &::-webkit-datetime-edit-month-field {
+        color: map-get($colors, "formcolor");
+      }
+      &::-webkit-datetime-edit-day-field {
+        color: map-get($colors, "formcolor");
+      }
+      &::-webkit-datetime-edit-year-field {
+        color: map-get($colors, "formcolor");
+      }
+      &::-webkit-inner-spin-button {
+        display: none;
+      }
+    }
+
+    input[type="range"].input {
+      display: block;
+      width: 100%;
+      height: 50px;
+      background: transparent;
+      font-size: 22px;
+      color: map-get($colors, "formcolor");
+      line-height: 1.2;
+      padding: 0 .5rem;
+      margin: .5rem 0;
+      border: 2px solid  map-get($colors, "formcolor");
+      border-radius: .4rem;
+      font-family: sans-serif;
+      -webkit-appearance: none;
+      background: map-get($colors, "blue");
+      outline: none;
+      opacity: 1;
+      transition: opacity 0.2s;
+
+      &:hover {
+        opacity: 0.7;
+      }
+
+      &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border: none;
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        background: map-get($colors, "info");
+        margin-top: 0;
+      }
+    }
 
     .right .input {
       padding-right: 3rem;
@@ -85,6 +154,10 @@ textarea:-ms-input-placeholder {color: #cccccc;}
 
     .left .input {
       padding-left: 3rem;
+    }
+
+    #rangevalue:before {
+      content: "$";
     }
   }
   .form-input-styled {
@@ -367,3 +440,5 @@ textarea:-ms-input-placeholder {color: #cccccc;}
   transform: translateY(50%);
   right: 5px;
 }
+
+
