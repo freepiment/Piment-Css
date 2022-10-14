@@ -2,7 +2,7 @@
 
 # Piment CSS
 
-**Piment CSS** is a css micro-framework made by Webmonster Antilles.
+**Piment CSS** is a css micro-framework made by Webmonster Community.
 
 [![npm](https://img.shields.io/npm/v/pimentcss.svg)](https://www.npmjs.com/package/pimentcss)
 [![downloads](https://img.shields.io/npm/dt/pimentcss.svg)](https://www.npmjs.com/package/pimentcss)
