@@ -2,7 +2,7 @@
 
 # Piment CSS
 
-**Piment CSS** is a css micro-framework made by Webmonster Community.
+**Piment CSS** is a css micro-framework made by Webmonster Antilles.
 
 [![npm](https://img.shields.io/npm/v/pimentcss.svg)](https://www.npmjs.com/package/pimentcss)
 [![downloads](https://img.shields.io/npm/dt/pimentcss.svg)](https://www.npmjs.com/package/pimentcss)
@@ -12,14 +12,13 @@
 ## Change Log
 All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
 
-## [0.3.39] - 2022-10-09
+## [0.3.40] - 2022-10-09
 
 ### Added
-- MINOR Add :selector class.
-- MINOR Add input[type="date"] class.
-- MINOR Add input[type="time"] class.
-- MINOR Add input[type="range"] class.
-- MINOR Add #rangevalue class.
+- MINOR Update package.json (new repo).
+- MINOR Update html tag.
+- MINOR Add address tag.
+- MINOR Update .card class.
 
 [Display changelog](CHANGELOG.md)
 
