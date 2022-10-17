@@ -4,9 +4,9 @@
   "description": "CSS Framework",
   "homepage": "https://pimentcss.webmonster.tech/",
   "main": "public/assets/css/piment.min.css",
-  "repository": "webmonstera/piment-css",
+  "repository": "freepiment/Piment-Css",
   "bugs": {
-    "url": "https://github.com/WebmonsterA/Piment-Css/issues"
+    "url": "https://github.com/freepiment/Piment-Css/issues"
   },
   "scripts": {
     "prepublish": "npm-auto-version",

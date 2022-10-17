@@ -1,6 +1,14 @@
 ## Change Log
 All changes to this project are documented in this file. This project is [Semantic Versioning](http://semver.org/) compliant.
 
+## [0.3.40] - 2022-10-09
+
+### Added
+- MINOR Update package.json (new repo).
+- MINOR Update html tag.
+- MINOR Add address tag.
+- MINOR Update .card class.
+
 ## [0.3.39] - 2022-10-09
 
 ### Added

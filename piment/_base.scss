@@ -25,6 +25,7 @@ table {
   border-spacing: 0
 }
 html {
+  color: map-get($colors, dark);
   font-family: sans-serif;
   font-size: 100%;
   -ms-text-size-adjust: 100%;

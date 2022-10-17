@@ -7,7 +7,7 @@
   padding: 0;
   list-style-type: none;
 }
-.card {
+.card__port {
   position: relative;
   display: block;
   height: 100%;
@@ -32,7 +32,7 @@
   transform: translateY(100%);
   transition: .2s ease-in-out;
 }
-.card:hover .card__overlay {
+.card__port:hover .card__overlay {
   transform: translateY(0);
 }
 .card__header {
@@ -60,7 +60,7 @@
   d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
 }
 
-.card:hover .card__header {
+.card__port:hover .card__header {
   transform: translateY(0);
 }
 
@@ -98,4 +98,25 @@
   -webkit-line-clamp: 3;
   overflow: hidden;
 }
+
+.card {
+  display: block;
+  background: #fff;
+  padding: 28px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132), 0 0.3px 0.9px 0 rgba(0,0,0,.108);
+  box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132), 0 0.3px 0.9px 0 rgba(0,0,0,.108);
+  position: relative;
+  opacity: 1;
+  transform: translate3d(0,48px,0);
+  transition: opacity .3s cubic-bezier(.1,.9,.2,1) 50ms,-webkit-transform .3s cubic-bezier(.1,.9,.2,1);
+  transition: transform .3s cubic-bezier(.1,.9,.2,1),opacity .3s cubic-bezier(.1,.9,.2,1) 50ms;
+  transition: transform .3s cubic-bezier(.1,.9,.2,1),opacity .3s cubic-bezier(.1,.9,.2,1) 50ms,-webkit-transform .3s cubic-bezier(.1,.9,.2,1);
+
+  &:hover, &:focus {
+    box-shadow: 0 1.6px 10px 0 rgba(0,0,0,.132), 0 0.3px 0.9px 0 rgba(0,0,0,.108);
+  }
+}
+
 
